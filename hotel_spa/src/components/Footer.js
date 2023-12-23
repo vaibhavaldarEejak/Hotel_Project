@@ -1,30 +1,71 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Footer() {
 
   return (
-    <div>
-      {/* <div className='col-lg-6'>
-      <div className='bg-dark text-dark border border-top-0 border-bottom-0 border-end-2 d-inline-block text-white'>
-        <h1 className='text-uppercase fw-bolder'>MK Hotel</h1>
-        <p className=''>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit Lorem ipsum dolor sit amet.</p>
-      </div>
-      </div>
-      <div className='col-lg-6'>
-      <div className='bg-dark text-dark d-inline-block text-white'>
-        <h1 className='text-uppercase fw-bolder'>Contact US</h1>
-        <p className='ms-3'>2nd Floor,Anjali Apartments,Hyderabad</p>
-        <p className='ms-3'>+918888999977</p>
-        <p className='ms-3'>+918888999977</p>
-        <p className='ms-3'>info@mkHotels</p>
+    <div className='container-fluid'>
+      <div className='row'>
+        <div className=' bg-dark col-sm-12 col-lg-7'>
+          <div className=' text-dark text-white'>
+            <div className='row  justify-content-center'>
+              <div className='col-lg-5 offset-2 p-4'>
+                <h6>RESERVATION</h6>
+                <ul className='list-unstyled footerlist'>
+                  <li><Link to='/' className='text-secondary fw-2 text-decoration-none'>Modify/Cancel</Link></li>
+                  <li><Link to='/' className='text-secondary fw-2 text-decoration-none'>Retrive Hotel Bill</Link></li>
+                </ul>
+              </div>
+
+              <div className='col-lg-5 p-4'>
+                <h6>Customer Service</h6>
+                <ul className='list-unstyled footerlist'>
+                  <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>Customer Service</Link></li>
+                  <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>FAQs</Link></li>
+                  <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>Contact Us</Link></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className='row  justify-content-center'>
+            <div className='col-lg-5 offset-2 p-4'>
+              <h6 className='text-white'>CORPORATE SITE</h6>
+              <ul className='list-unstyled footerlist'>
+                <li><Link to='/home' className='text-secondary fw-2 text-decoration-none'>About Us</Link></li>
+                <li><Link to='/home' className='text-secondary fw-2 text-decoration-none'>Careers</Link></li>
+                <li><Link to='/home' className='text-secondary fw-2 text-decoration-none'>Investor Relations</Link></li>
+                <li><Link to='/home' className='text-secondary fw-2 text-decoration-none'>Corporate Responsibility</Link></li>
+
+              </ul>
+            </div>
+
+            <div className='col-lg-5 p-4'>
+              <h6 className='text-white'>EXPLORE MORE</h6>
+              <ul className='list-unstyled footerlist'>
+                <li><Link to='/home' className='text-secondary fw-2 text-decoration-none '>Travel Advisor</Link></li>
+                <li><Link to='/home' className='text-secondary fw-2 text-decoration-none '>Corporate Travel</Link></li>
+                <li><Link to='/home' className='text-secondary fw-2 text-decoration-none '>Residenes</Link></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div> */}
 
-      <div className='bg-dark bg-gradient text-white text-center'>
-        <p>&copy; 2020 Hotels</p>
-        <p>Designed by XYZ</p>
+        <div className='bg-dark col-sm-12 col-lg-5 text-white'>
+          <p className='pt-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit..</p>
+          <h4 className='mt-5'>CONNECT WITH XYZ HOTEL</h4>
+          <span className=''>
+            <Link to='https://www.facebook.com/'><i className="fa fa-facebook bg-primary text-white p-2 mt-2 border rounded-circle "></i></Link>
+            <Link to='https://www.instagram.com/'><i className="fa fa-instagram bg-danger text-white p-2 mt-2 border rounded-circle ms-4"></i></Link>
+            <Link to='https://twitter.com/i/flow/login'><i className="fa fa-twitter bg-info text-white p-2 mt-2 border rounded-circle ms-4"></i></Link>
+            <Link to='https://www.linkedin.com/login'><i className="fa fa-linkedin bg-primary text-white p-2 mt-2 border rounded-circle ms-4"></i></Link>
+          </span>
+        </div>
+
+        {/* <div className='bg-dark bg-gradient text-white text-center '>
+          <p>&copy; 2020 Hotels</p>
+          <p>Designed by XYZ</p>
+        </div> */}
       </div>
-
     </div>
   )
 }

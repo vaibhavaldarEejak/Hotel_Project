@@ -1,5 +1,5 @@
 .headerHeading{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .ourRoomHeading{
@@ -11,5 +11,32 @@
 
 .cardImg:hover{
    box-shadow: 0px 1px 1px 1px;
+};
+
+.staffImg{
+    box-shadow: 0px 1px 1px 1px;
+    height:450px;
+}
+
+.formClass{
+    background-color: #EBEBEB;
+}
+
+.formDisplay{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.formInput_Width{
+  width: 70%;
+}
+
+.footer_ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+li{
+  padding:10px 0px 10px 0px;
 }
 
