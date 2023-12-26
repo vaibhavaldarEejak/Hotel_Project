@@ -29,14 +29,11 @@ const Header = () => {
 
     return (
         <div className='Header'>
-            <div className='container-fluid'>
-
-                <span className='headerHeading fw-bolder ms-3 text-uppercase text-warning'>MK</span>
-                <span className='headerHeading fw-bolder text-uppercase text-dark'>Hotels</span>
-            </div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <button className="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <Link  to='' className="navbar-brand" href="#"><span className='headerHeading fw-bolder ms-3 text-uppercase text-warning'>MK</span>
+                        <span className='headerHeading fw-bolder text-uppercase text-white'>Hotels</span></Link>
+                    <button className="navbar-toggler bg-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
