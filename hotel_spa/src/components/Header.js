@@ -57,7 +57,7 @@ const Header = () => {
 
                         <form className="d-flex">
                             <span>
-                                <i className="fa fa-user-circle-o text-white fs-5"></i>
+                                <i className="fa fa-user-circle-o text-white fs-5 ps-5"></i>
                                 <Link to='/' className='text-decoration-none text-white ms-2' data-toggle="modal" data-target="#myModal">
                                     Sign In or Register
                                 </Link>
