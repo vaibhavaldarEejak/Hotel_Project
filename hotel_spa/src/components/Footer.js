@@ -9,7 +9,7 @@ function Footer() {
         <div className=' bg-dark col-sm-12 col-lg-7'>
           <div className=' text-dark text-white'>
             <div className='row  justify-content-center'>
-              <div className='col-lg-5 offset-2 p-4'>
+              <div className='col-lg-5  p-4'>
                 <h6>RESERVATION</h6>
                 <ul className='list-unstyled footerlist'>
                   <li><Link to='/' className='text-secondary fw-2 text-decoration-none'>Modify/Cancel</Link></li>
@@ -17,21 +17,21 @@ function Footer() {
                 </ul>
               </div>
 
-              <div className='col-lg-5 p-4'>
+              <div className='col-lg-5  p-4'>
                 <h6>Customer Service</h6>
                 <ul className='list-unstyled footerlist'>
                   <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>Customer Service</Link></li>
                   <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>FAQs</Link></li>
-                  <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>Contact Us</Link></li>
+                  <li><Link to='/contact' className='text-secondary fw-2 text-decoration-none '>Contact Us</Link></li>
                 </ul>
               </div>
             </div>
           </div>
           <div className='row  justify-content-center'>
-            <div className='col-lg-5 offset-2 p-4'>
+            <div className='col-lg-5 footer_coroprateSite p-4'>
               <h6 className='text-white'>CORPORATE SITE</h6>
               <ul className='list-unstyled footerlist'>
-                <li><Link to='/home' className='text-secondary fw-2 text-decoration-none'>About Us</Link></li>
+                <li><Link to='/aboutus' className='text-secondary fw-2 text-decoration-none'>About Us</Link></li>
                 <li><Link to='/home' className='text-secondary fw-2 text-decoration-none'>Careers</Link></li>
                 <li><Link to='/home' className='text-secondary fw-2 text-decoration-none'>Investor Relations</Link></li>
                 <li><Link to='/home' className='text-secondary fw-2 text-decoration-none'>Corporate Responsibility</Link></li>
@@ -61,10 +61,9 @@ function Footer() {
           </span>
         </div>
 
-        {/* <div className='bg-dark bg-gradient text-white text-center '>
-          <p>&copy; 2020 Hotels</p>
-          <p>Designed by XYZ</p>
-        </div> */}
+        <div className='bg-dark bg-gradient text-white text-center'>
+          <p>&copy; 2020 Hotels Corporation</p>
+        </div>
       </div>
     </div>
   )

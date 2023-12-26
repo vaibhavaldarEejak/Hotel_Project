@@ -4,9 +4,10 @@
 
 .ourRoomHeading{
     margin: 50px 0 0 0;
-    font-size: 13vh;
+    font-size: 9vh;
     font-weight: bold;
     text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .cardImg:hover{
@@ -40,3 +41,6 @@ li{
   padding:10px 0px 10px 0px;
 }
 
+.footer_coroprateSite{
+    margin-left: 10px;
+}

@@ -15,11 +15,11 @@ const Home = () => {
               <label>Check In</label>
               <input type="date" className="form-control formInput_Width" />
             </div>
-            <div className="col-lg-3 formDisplay">
+            <div className="col-lg-3  formDisplay">
               <label>Check Out</label>
               <input type="date" className="form-control formInput_Width" id="" placeholder="" />
             </div>
-            <div className="col-lg-3 formDisplay">
+            <div className="col-lg-3  formDisplay">
               <label>Rooms</label>
               <select className='form-control formInput_Width'>
                 <option value='royalRoom'>Royal Room</option>
@@ -28,7 +28,7 @@ const Home = () => {
                 <option value='Single Room'>Single Room</option>
               </select>
             </div>
-            <div className="col-lg-2 ms-3">
+            <div className="col-lg-2 ms-3 ">
               <Link type='btn' className="btn btn-warning  w-75 text-uppercase">Search</Link>
             </div>
           </form>
@@ -39,13 +39,10 @@ const Home = () => {
           <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="2000">
-                <img src='https://static.cube-concept.gr/files/projects/commercial/mk-hotel-collection-offices/01view-2-sky-mesa.jpg' className="d-block w-100 h-50" alt="" />
+                <img src='https://static.cube-concept.gr/files/projects/commercial/mk-hotel-collection-offices/01view-2-sky-mesa.jpg' className="d-block w-100" alt="" height='500' />
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-                <img src='https://static.cube-concept.gr/files/projects/commercial/mk-hotel-collection-offices/01view-2-sky-mesa.jpg' className="d-block w-100 h-50" alt="" />
-              </div>
-              <div className="carousel-item">
-                <img src={require('../assets/slider.jpg')} className="d-block w-100" alt="" height='580' />
+                <img src='https://www.gkeosstefanos.gr/wp-content/uploads/unique-7.jpg' className="d-block w-100" alt="" height='500'  />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -62,7 +59,7 @@ const Home = () => {
         <h1 className='text-uppercase text-dark fw-bolder text-center mt-4 ourRoomHeading'>Our Rooms</h1>
       </div>
       <div className='text-center mt-4'>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</h3>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</h4>
       </div>
       <Card />
       <img className='w-100 h-25 mt-5' src={roomdeal} alt='roomdealImg' />
@@ -70,7 +67,7 @@ const Home = () => {
         <h1 className='text-uppercase text-dark fw-bolder text-center mt-4 ourRoomHeading'>Our Staff</h1>
       </div>
       <div className='text-center mt-4'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</p>
+        <p className='fs-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</p>
       </div>
       <StaffCard />
     </div>
