@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <div className='container-fluid'>
-      <div className='row'>
+      <div className='row mt-5'>
         <div className=' bg-dark col-sm-12 col-lg-7'>
           <div className=' text-dark text-white'>
             <div className='row  justify-content-center'>
@@ -53,7 +53,7 @@ function Footer() {
         <div className='bg-dark col-sm-12 col-lg-5 text-white'>
           <p className='pt-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit..</p>
           <h4 className='mt-5 '>CONNECT WITH XYZ HOTEL</h4>
-          <span className='offset-2'>
+          <span className=''>
             <Link to='https://www.facebook.com/' className=' footer_Icon'><i className="fa fa-facebook bg-primary text-white p-2 mt-2 "></i></Link>
             <Link to='https://www.instagram.com/'><i className="fa fa-instagram bg-danger text-white p-2 mt-2  ms-4"></i></Link>
             <Link to='https://twitter.com/i/flow/login'><i className="fa fa-twitter bg-info text-white p-2 mt-2  ms-4"></i></Link>

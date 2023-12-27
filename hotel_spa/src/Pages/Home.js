@@ -7,7 +7,6 @@ import StaffCard from '../components/StaffCard';
 const Home = () => {
   return (
     <div>
-
       <div className='container-fluid p-4 formClass'>
         <div className='row ms-5'>
           <form className="row mt-3 mb-3">
@@ -35,17 +34,17 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className='mb-2'>
+        <div className='mb-2 '>
           <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="2000">
-                <img src='https://static.cube-concept.gr/files/projects/commercial/mk-hotel-collection-offices/01view-2-sky-mesa.jpg' className="d-block w-100" alt="" height='500' />
+                <img src='https://static.cube-concept.gr/files/projects/commercial/mk-hotel-collection-offices/01view-2-sky-mesa.jpg' className="d-block w-100" alt="" height='600' />
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/slider-2.jpg' className="d-block w-100" alt="" height='500'  />
+                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/slider-2.jpg' className="d-block w-100" alt="" height='600'  />
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/02/slider-1.jpg' className="d-block w-100" alt="" height='500'  />
+                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/02/slider-1.jpg' className="d-block w-100" alt="" height='600'  />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -56,7 +55,6 @@ const Home = () => {
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
             </button>
-
           </div>
         </div>
         <h1 className='text-uppercase text-dark fw-bolder text-center mt-4 ourRoomHeading'>Our Rooms</h1>

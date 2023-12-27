@@ -16,7 +16,7 @@
     box-shadow: 0px 1px 1px 1px;
 }
 
-;
+
 
 .staffImg {
     box-shadow: 0px 1px 1px 1px;
@@ -41,11 +41,20 @@
 /* contact */
 .bgImg_Contact {
     background-image: url('https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/breadcrumb-01.jpg');
-    height:350px;
+    height: 350px;
     text-align: center;
-    color:#fff;
+    color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.contactSection {
+    background-color: #e85f4c;
+}
+
+.contactSendMessage_heading {
+    font-family: 'Marcellus",sans-serif';
+}
+
 
 
 /* footer */
