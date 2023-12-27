@@ -31,7 +31,7 @@ const Header = () => {
         <div className='Header'>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <Link  to='' className="navbar-brand" href="#"><span className='headerHeading fw-bolder ms-3 text-uppercase text-warning'>MK</span>
+                    <Link  to='/home' className="navbar-brand" href="#"><span className='headerHeading fw-bolder ms-3 text-uppercase text-warning'>MK</span>
                         <span className='headerHeading fw-bolder text-uppercase text-white'>Hotels</span></Link>
                     <button className="navbar-toggler bg-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

@@ -28,8 +28,8 @@ const Home = () => {
                 <option value='Single Room'>Single Room</option>
               </select>
             </div>
-            <div className="col-lg-2 ms-3 ">
-              <Link type='btn' className="btn btn-warning  w-75 text-uppercase">Search</Link>
+            <div className="col-lg-2 ms-2">
+              <Link type='btn' className="btn btn-warning  w-75 text-uppercase mt-1">Search</Link>
             </div>
           </form>
         </div>
@@ -42,7 +42,10 @@ const Home = () => {
                 <img src='https://static.cube-concept.gr/files/projects/commercial/mk-hotel-collection-offices/01view-2-sky-mesa.jpg' className="d-block w-100" alt="" height='500' />
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-                <img src='https://www.gkeosstefanos.gr/wp-content/uploads/unique-7.jpg' className="d-block w-100" alt="" height='500'  />
+                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/slider-2.jpg' className="d-block w-100" alt="" height='500'  />
+              </div>
+              <div className="carousel-item" data-bs-interval="2000">
+                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/02/slider-1.jpg' className="d-block w-100" alt="" height='500'  />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
