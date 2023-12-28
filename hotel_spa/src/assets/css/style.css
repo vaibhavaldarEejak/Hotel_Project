@@ -56,7 +56,6 @@
 }
 
 
-
 /* footer */
 .footer_ul {
     display: flex;
@@ -70,4 +69,10 @@ li {
 
 .footer_coroprateSite {
     margin-left: 10px;
+}
+
+
+.footerIconHover:hover{
+    background-color:rgb(255, 255, 255);
+    border-radius: 50px;
 }
