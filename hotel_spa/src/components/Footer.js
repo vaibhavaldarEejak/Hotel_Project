@@ -62,7 +62,7 @@ function Footer() {
         </div>
          
         <div className='bg-dark bg-gradient text-white text-center pt-3'>
-          <p>&copy; 2020 Hotels Corporation</p>
+          <p>&copy; 2023 Hotels Corporation</p>
         </div>
       </div>
     </div>

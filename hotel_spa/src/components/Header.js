@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom'
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import StateCityDropdown from './StateCityDropdown';
+
 import '../assets/css/style.css';
+
+
 
 const validationSchema = Yup.object({
     firstName: Yup.string().required('First Name is required'),
@@ -12,7 +16,6 @@ const validationSchema = Yup.object({
 });
 
 const Header = () => {
-
 
     const initialValues = {
         firstName: '',
@@ -26,12 +29,11 @@ const Header = () => {
         console.log('Form submitted successfully!', values);
     };
 
-
     return (
         <div className='Header'>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <Link  to='/home' className="navbar-brand" href="#"><span className='headerHeading fw-bolder ms-3 text-uppercase text-warning'>MK</span>
+                    <Link to='/home' className="navbar-brand" href="#"><span className='headerHeading fw-bolder ms-3 text-uppercase text-warning'>MK</span>
                         <span className='headerHeading fw-bolder text-uppercase text-white'>Hotels</span></Link>
                     <button className="navbar-toggler bg-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -59,7 +61,7 @@ const Header = () => {
                                     Sign In or Register
                                 </Link>
                             </span>
-                            <div className="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal fade" id="myModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div className="modal-dialog" role="document">
                                     <div className="modal-content">
                                         <div className="modal-header">
@@ -91,16 +93,19 @@ const Header = () => {
                                                             placeholder="Enter Your Last Name" />
                                                         <ErrorMessage name="lastName" component="div" className='text-danger' />
                                                     </div>
-
+                                                    <div className="form-group">
+                                                        <label htmlFor="">Country</label>
+                                                        <StateCityDropdown />
+                                                       
+                                                    </div>
+                                                    <div className="form-group">
+                                                        <label htmlFor="">State</label>
+                                                        
+                                                       
+                                                    </div>
                                                     <div className="form-group">
                                                         <label htmlFor="">City</label>
-                                                        <select className="form-control" id="exampleFormControlInput1" >
-                                                            <option value='Pune'>Pune</option>
-                                                            <option value='Mumbai'>Mumbai</option>
-                                                            <option value='Nashik'>Nashik</option>
-                                                            <option value='Gujrat'>Gujrat</option>
-                                                            <option value='Surat'>Surat</option>
-                                                        </select>
+
                                                     </div>
 
                                                     <div className="form-group">

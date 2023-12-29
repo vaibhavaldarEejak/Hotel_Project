@@ -18,7 +18,7 @@ const Card = () => {
                 {roomsImgData.map((item, id) => (
                     <div className='col-lg-4'>
                         <div className="card mb-3 mt-3  border border-2 cardImg mb-5 mx-auto" key={id}>
-                            <img src={item.src} className="card-img-top mb-4" alt='img' />
+                            <img src={item.src} className="card-img-top mb-4" alt='img' key={id} />
                             <div className="card-body text-center">
                                 <h3 >{item.title}</h3>
                                 <h3 className='mt-5'>{item.price}</h3>
