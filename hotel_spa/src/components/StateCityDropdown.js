@@ -1,65 +1,49 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios'
+import React, { useState } from 'react';
+import {
+  CitySelect,
+  CountrySelect,
+  StateSelect,
+  LanguageSelect,
+} from "react-country-state-city";
+import "react-country-state-city/dist/react-country-state-city.css";
 
-const StateCityDropdown = () => {
-  const [data, setData] = useState([])
-  const [getCountry, setGetCountry] = useState([])
-  const [getState, setGetState] = useState([])
-  const [selectedState,setSelectedState]=useState()
-  const [cities,setCities]=useState([])
-
-  useEffect(() => {
-    axios.get('https://pkgstore.datahub.io/core/world-cities/world-cities_json/data/5b3dd46ad10990bca47b04b4739a02ba/world-cities_json.json')
-      .then(res => {
-        console.log(res.data)
-        setData(res.data)
-      })
-      .catch((err) => console.log(err))
-  }, [])
-
-  const country = [...new Set(data.map(item => item.country))];
-  country.sort()
-
-  const handleCountry = (e) => {
-    let states = data.filter(state => state.country === e.target.value);
-    states = [...new Set(states.map(item => item.subcountry))]
-    states.sort();
-    setGetState(states)
-  }
-
-  const handleState=(e)=>{
-    let cities=data.filter(city=>city.subcountry===e.target.value)
-    console.log(cities)
-    setCities(cities)
-  }
-
+function StateCityDropdown() {
+  const [countryid, setCountryid] = useState(0);
+  const [stateid, setstateid] = useState(0);
   return (
     <div>
-      <div>
-        <select onChange={(e) => handleCountry(e)}>
-          {country.map((item, id) => (
-            <option key={id} value={getCountry}>{item}</option>
-          ))}
-        </select>
-      </div>
-      <div>
-      <select onChange={(e) => handleState(e)}>
-        <option value=''>Select State</option>
-        {getState.map((item, id) => (
-          <option key={id} value={selectedState}>{item}</option>
-        ))}
-      </select>
-      </div>
-      <div>
-      <select>
-        <option value=''>Select City</option>
-        {cities.map((item) => (
-          <option key={item.name} value={selectedState}>{item.name}</option>
-        ))}
-      </select>
-      </div>
+      <label htmlFor="country" className='text-dark fw-bolder'>Country</label>
+      <CountrySelect
+        onChange={(e) => {
+          setCountryid(e.id);
+        }}
+        placeHolder="Select Country"
+      />
+     <label htmlFor="country" className='text-dark fw-bolder'>States</label>
+      <StateSelect
+        countryid={countryid}
+        onChange={(e) => {
+          setstateid(e.id);
+        }}
+        placeHolder="Select State"
+      />
+     <label htmlFor="country" className='text-dark fw-bolder'>City</label>
+      <CitySelect
+        countryid={countryid}
+        stateid={stateid}
+        onChange={(e) => {
+          console.log(e);
+        }}
+        placeHolder="Select City"
+      />
+      {/* <h6>Language</h6> */}
+      {/* <LanguageSelect
+        onChange={(e) => {
+          console.log(e);
+        }}
+        placeHolder="Select Language"
+      /> */}
     </div>
-  )
+  );
 }
-
-export default StateCityDropdown
+export default StateCityDropdown;

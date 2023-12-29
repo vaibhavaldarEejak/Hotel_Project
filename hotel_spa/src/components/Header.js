@@ -74,7 +74,7 @@ const Header = () => {
                                             <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                                                 <Form>
                                                     <div className="form-group h-50">
-                                                        <label htmlFor="firstName">First Name</label>
+                                                        <label htmlFor="firstName" className='text-dark fw-bolder'>First Name</label>
                                                         <Field
                                                             type="text"
                                                             className="form-control"
@@ -85,7 +85,7 @@ const Header = () => {
 
                                                     </div>
                                                     <div className="form-group h-50">
-                                                        <label htmlFor="lastName">Last Name</label>
+                                                        <label htmlFor="lastName" className='text-dark fw-bolder'>Last Name</label>
                                                         <Field type="text"
                                                             className="form-control"
                                                             id="lastName"
@@ -93,23 +93,9 @@ const Header = () => {
                                                             placeholder="Enter Your Last Name" />
                                                         <ErrorMessage name="lastName" component="div" className='text-danger' />
                                                     </div>
+                                                        <StateCityDropdown /> 
                                                     <div className="form-group">
-                                                        <label htmlFor="">Country</label>
-                                                        <StateCityDropdown />
-                                                       
-                                                    </div>
-                                                    <div className="form-group">
-                                                        <label htmlFor="">State</label>
-                                                        
-                                                       
-                                                    </div>
-                                                    <div className="form-group">
-                                                        <label htmlFor="">City</label>
-
-                                                    </div>
-
-                                                    <div className="form-group">
-                                                        <label htmlFor="email">Email</label>
+                                                        <label htmlFor="email" className='text-dark fw-bolder'>Email</label>
                                                         <Field
                                                             type="email"
                                                             className="form-control"
@@ -119,7 +105,7 @@ const Header = () => {
                                                         <ErrorMessage name="email" component="div" className='text-danger' />
                                                     </div>
                                                     <div className="form-group">
-                                                        <label htmlFor="password">Password</label>
+                                                        <label htmlFor="password" className='text-dark fw-bolder'>Password</label>
                                                         <Field type="password"
                                                             className="form-control"
                                                             id="password"
