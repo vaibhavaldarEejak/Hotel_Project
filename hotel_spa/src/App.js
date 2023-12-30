@@ -3,11 +3,12 @@ import Header from './components/Header';
 import Home from './Pages/Home';
 import Rooms from './Pages/Rooms';
 import Contact from './Pages/Contact';
+import AboutUs from './Pages/AboutUs';
+import BookingPage from './Pages/BookingPage';
 import Footer from './components/Footer';
 
 
 import './App.css';
-import AboutUs from './Pages/AboutUs';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path='/aboutus' element={<AboutUs />} />
           <Route path='/rooms' element={<Rooms />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/booking_engine' element={<BookingPage />} />
+
         </Routes>
       <Footer />
     

@@ -36,6 +36,23 @@
     width: 70%;
 }
 
+/* Aboutus.. */
+.bgImg_About {
+    background-image: url("https://asiatech.in/booking_engine/admin/hotel_gal…pp_Image_2023-02-20_at_3.57.40_PM.1677306337.jpeg");
+    padding: 120px 0px;
+    background-size: 100% 100%;
+    background-position: 50% 0px;
+}
+
+
+ .aboutus_HeadingHotel{
+    font-family: 'Dancing Script', cursive;
+    font-size: 900;
+ }
+
+
+
+
 /* contact */
 .bgImg_Contact {
     background-image: url('https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/breadcrumb-01.jpg');
@@ -46,11 +63,20 @@
 }
 
 .contactSection {
-    background-color: #e85f4c;
+    background-color: #fe7d25;
 }
 
 .contactSendMessage_heading {
     font-family: 'Marcellus",sans-serif';
+}
+
+.contact_InfoCard:hover{
+    background-color: #fe7d25;
+}
+.contactSec_Info{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 
@@ -69,8 +95,7 @@ li {
     margin-left: 10px;
 }
 
-.footerIconHover:hover{
-    background-color:rgb(255, 255, 255);
+.footerIconHover:hover {
+    background-color: rgb(255, 255, 255);
     border-radius: 50px;
 }
-

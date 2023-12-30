@@ -44,99 +44,25 @@
       "price": "89$ / Night"
     }
   ],
+  "hotelsImg" :[
+    { "src": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww"  }
+],
 
-  "states": [
-    { "id": 1, "name": "Andhra Pradesh" },
-    { "id": 2, "name": "Arunachal Pradesh" },
-    { "id": 3, "name": "Assam" },
-    { "id": 4, "name": "Bihar" },
-    { "id": 5, "name": "Chhattisgarh" },
-    { "id": 6, "name": "Goa" },
-    { "id": 7, "name": "Gujarat" },
-    { "id": 8, "name": "Haryana" },
-    { "id": 9, "name": "Himachal Pradesh" },
-    { "id": 10, "name": "Jharkhand" },
-    { "id": 11, "name": "Karnataka" },
-    { "id": 12, "name": "Kerala" },
-    { "id": 13, "name": "Madhya Pradesh" },
-    { "id": 14, "name": "Maharashtra" },
-    { "id": 15, "name": "Manipur" },
-    { "id": 16, "name": "Meghalaya" },
-    { "id": 17, "name": "Mizoram" },
-    { "id": 18, "name": "Nagaland" },
-    { "id": 19, "name": "Odisha" },
-    { "id": 20, "name": "Punjab" },
-    { "id": 21, "name": "Rajasthan" },
-    { "id": 22, "name": "Sikkim" },
-    { "id": 23, "name": "Tamil Nadu" },
-    { "id": 24, "name": "Telangana" },
-    { "id": 25, "name": "Tripura" },
-    { "id": 26, "name": "Uttar Pradesh" },
-    { "id": 27, "name": "Uttarakhand" },
-    { "id": 28, "name": "West Bengal" }
-  ],
+"hotelsServices":[
+  {"services":"Laundry Service"},
+  {"services":"Room Service"},
+  {"services":"AC"},
+  {"services":"Parking"},
+  {"services":"Accomodation"},
+  {"services":"Restaurant"},
+  {"services":"Dinning Area"},
+  {"services":"swimming pool"}
 
-    "cities": {
-      "Andhra Pradesh": [
-        { "id": 1, "name": "Visakhapatnam" },
-        { "id": 2, "name": "Vijayawada" },
-        { "id": 3, "name": "Guntur" },
-        { "id": 4, "name": "Nellore" },
-        { "id": 5, "name": "Kurnool" },
-        { "id": 6, "name": "Kakinada" },
-        { "id": 7, "name": "Rajahmundry" },
-        { "id": 8, "name": "Tirupati" },
-        { "id": 9, "name": "Anantapur" },
-        { "id": 10, "name": "Ongole" }
-      ],
-      "Maharashtra": [
-        { "id": 101, "name": "Mumbai" },
-        { "id": 102, "name": "Pune" },
-        { "id": 103, "name": "Nagpur" },
-        { "id": 104, "name": "Nashik" },
-        { "id": 105, "name": "Thane" },
-        { "id": 106, "name": "Aurangabad" },
-        { "id": 107, "name": "Solapur" },
-        { "id": 108, "name": "Amravati" },
-        { "id": 109, "name": "Kolhapur" },
-        { "id": 110, "name": "Mira-Bhayandar" }
-      ],
-      "Gujarat": [
-        { "id": 201, "name": "Ahmedabad" },
-        { "id": 202, "name": "Surat" },
-        { "id": 203, "name": "Vadodara" },
-        { "id": 204, "name": "Rajkot" },
-        { "id": 205, "name": "Gandhinagar" },
-        { "id": 206, "name": "Jamnagar" },
-        { "id": 207, "name": "Bhavnagar" },
-        { "id": 208, "name": "Junagadh" },
-        { "id": 209, "name": "Anand" },
-        { "id": 210, "name": "Navsari" }
-      ],
-      "Tamil Nadu": [
-        { "id": 301, "name": "Chennai" },
-        { "id": 302, "name": "Coimbatore" },
-        { "id": 303, "name": "Madurai" },
-        { "id": 304, "name": "Tiruchirappalli" },
-        { "id": 305, "name": "Salem" },
-        { "id": 306, "name": "Tirunelveli" },
-        { "id": 307, "name": "Erode" },
-        { "id": 308, "name": "Vellore" },
-        { "id": 309, "name": "Thoothukudi" },
-        { "id": 310, "name": "Dindigul" }
-      ],
-      "Uttar Pradesh": [
-        { "id": 401, "name": "Lucknow" },
-        { "id": 402, "name": "Kanpur" },
-        { "id": 403, "name": "Agra" },
-        { "id": 404, "name": "Varanasi" },
-        { "id": 405, "name": "Meerut" },
-        { "id": 406, "name": "Allahabad" },
-        { "id": 407, "name": "Ghaziabad" },
-        { "id": 408, "name": "Noida" },
-        { "id": 409, "name": "Gorakhpur" },
-        { "id": 410, "name": "Kanpur" }
-      ]
-    }
-  }
+
+
+
+
+
+]
+ }
   

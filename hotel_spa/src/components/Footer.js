@@ -51,7 +51,7 @@ function Footer() {
         </div>
 
         <div className='bg-dark col-sm-12 col-lg-5 text-white'>
-          <p className='pt-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit..</p>
+          <p className='pt-4'></p>
           <h4 className='mt-5 '>CONNECT WITH XYZ HOTEL</h4>
           <span className='fs-3'>
             <Link to='https://www.facebook.com/' className='footer_Icon'><i className="fa fa-facebook  p-2 mt-2 footerIconHover"></i></Link>

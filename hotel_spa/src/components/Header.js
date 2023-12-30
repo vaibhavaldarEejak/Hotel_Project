@@ -57,6 +57,9 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link  px-5 text-white fw-5 " to="/contact" >Contact</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link  px-5 text-white fw-5 border border-rounded-5 " to="/booking_engine" >Book to Stay</Link>
+                            </li>
                         </ul>
 
                         {/* <form className="d-flex"> */}
