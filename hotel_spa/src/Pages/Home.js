@@ -34,17 +34,17 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className='mb-2 '>
+        <div>
           <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="2000">
                 <img src='https://static.cube-concept.gr/files/projects/commercial/mk-hotel-collection-offices/01view-2-sky-mesa.jpg' className="d-block w-100" alt="" height='600' />
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/slider-2.jpg' className="d-block w-100" alt="" height='600'  />
+                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/slider-2.jpg' className="d-block w-100" alt="" height='600' />
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/02/slider-1.jpg' className="d-block w-100" alt="" height='600'  />
+                <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/02/slider-1.jpg' className="d-block w-100" alt="" height='600' />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -57,22 +57,22 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <h1 className='text-uppercase text-dark fw-bolder text-center mt-4 ourRoomHeading'>Our Rooms</h1>
-      </div>
-      <div className='text-center mt-4'>
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</h4>
-      </div>
-      <Card />
-      <img className='w-100 h-25 mt-5' src={roomdeal} alt='roomdealImg' />
-      <div>
-        <h1 className='text-uppercase text-dark fw-bolder text-center mt-4 ourRoomHeading'>Our Staff</h1>
-      </div>
-      <div className='text-center mt-4'>
-        <p className='fs-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</p>
-      </div>
-      <StaffCard />
-    </div>
 
+        <h1 className='text-uppercase text-dark fw-bolder text-center mt-4 ourRoomHeading'>Our Rooms</h1>
+        <div className='text-center mt-4'>
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</h4>
+        </div>
+        <Card />
+        <img className='w-100 h-25 mt-5' src={roomdeal} alt='roomdealImg' />
+        <div>
+          <h1 className='text-uppercase text-dark fw-bolder text-center mt-4 ourRoomHeading'>Our Staff</h1>
+        </div>
+        <div className='text-center mt-4'>
+          <p className='fs-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</p>
+        </div>
+        <StaffCard />
+      </div>
+    </div>
   )
 }
 

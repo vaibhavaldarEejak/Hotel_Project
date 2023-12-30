@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <div className='bgImg_Contact mb-4 pt-5'>
         <h1 className='pt-5 align-item-center'>Contact</h1>
-        <span><Link to='/home' className='text-white text-decoration-none'>Home</Link >/ Contact</span>
+        <span className='fs-5'><Link to='/home' className='text-white text-decoration-none'>Home</Link >/ Contact</span>
       </div>
       <div className='container'>
         <div className='row'>

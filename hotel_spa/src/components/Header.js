@@ -13,6 +13,10 @@ const validationSchema = Yup.object({
     lastName: Yup.string().required('Last Name is required'),
     email: Yup.string().email('Invalid email format').required('Email is required'),
     password: Yup.string().required('Password is required'),
+    confirm_password: Yup
+        .string()
+        .oneOf([Yup.ref('password'), null], 'Passwords must match')
+        .required('Confirm Password is required'),
 });
 
 const Header = () => {
@@ -22,6 +26,7 @@ const Header = () => {
         lastName: '',
         email: '',
         password: '',
+        confirm_password: ''
     };
 
     const handleSubmit = (values) => {
@@ -39,7 +44,7 @@ const Header = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase ">
                             <li className="nav-item">
                                 <Link className="nav-link  px-5 text-white fw-5 active" aria-current="page" to='/home'>Home</Link>
                             </li>
@@ -54,76 +59,84 @@ const Header = () => {
                             </li>
                         </ul>
 
-                        <form className="d-flex">
-                            <span>
-                                <i className="fa fa-user-circle-o text-white fs-5 ps-5"></i>
-                                <Link to='/' className='text-decoration-none text-white ms-2' data-toggle="modal" data-target="#myModal">
-                                    Sign In or Register
-                                </Link>
-                            </span>
-                            <div className="modal fade" id="myModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div className="modal-dialog" role="document">
-                                    <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h5 className="modal-title" id="exampleModalLabel">Login Form</h5>
-                                            <button type="button" className="close bg-secondary text-white" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div className="modal-body">
-                                            <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
-                                                <Form>
-                                                    <div className="form-group h-50">
-                                                        <label htmlFor="firstName" className='text-dark fw-bolder'>First Name</label>
-                                                        <Field
-                                                            type="text"
-                                                            className="form-control"
-                                                            id="firstName"
-                                                            name="firstName"
-                                                            placeholder="Enter Your First Name" />
-                                                        <ErrorMessage name="firstName" component="div" className='text-danger' />
+                        {/* <form className="d-flex"> */}
+                        <span>
+                            <i className="fa fa-user-circle-o text-white fs-5 ps-5"></i>
+                            <Link to='/' className='text-decoration-none text-white ms-2' data-toggle="modal" data-target="#myModal">
+                                Sign In or Register
+                            </Link>
+                        </span>
+                        <div className="modal fade" id="myModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog" role="document">
+                                <div className="modal-content p-3">
+                                    <div className="modal-header p-3">
+                                        <h4 className="modal-title" id="exampleModalLabel">Create a Account</h4>
+                                        <button type="button" className="close bg-secondary text-white" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div className="modal-body pt-3">
+                                        <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
+                                            <Form>
+                                                <div className="form-group h-50">
+                                                    <label htmlFor="firstName" className='text-dark fw-bolder'>First Name</label>
+                                                    <Field
+                                                        type="text"
+                                                        className="form-control"
+                                                        id="firstName"
+                                                        name="firstName"
+                                                        placeholder="First Name" />
+                                                    <ErrorMessage name="firstName" component="div" className='text-danger' />
 
-                                                    </div>
-                                                    <div className="form-group h-50">
-                                                        <label htmlFor="lastName" className='text-dark fw-bolder'>Last Name</label>
-                                                        <Field type="text"
-                                                            className="form-control"
-                                                            id="lastName"
-                                                            name='lastName'
-                                                            placeholder="Enter Your Last Name" />
-                                                        <ErrorMessage name="lastName" component="div" className='text-danger' />
-                                                    </div>
-                                                        <StateCityDropdown /> 
-                                                    <div className="form-group">
-                                                        <label htmlFor="email" className='text-dark fw-bolder'>Email</label>
-                                                        <Field
-                                                            type="email"
-                                                            className="form-control"
-                                                            id="email"
-                                                            name="email"
-                                                            placeholder="Enter your Email" />
-                                                        <ErrorMessage name="email" component="div" className='text-danger' />
-                                                    </div>
-                                                    <div className="form-group">
-                                                        <label htmlFor="password" className='text-dark fw-bolder'>Password</label>
-                                                        <Field type="password"
-                                                            className="form-control"
-                                                            id="password"
-                                                            name='password'
-                                                            placeholder="Enter your password" />
-                                                        <ErrorMessage name="password" component="div" className='text-danger' />
-                                                    </div>
-                                                    <div className="modal-footer">
-                                                        <button type="submit" className="btn btn-success text-center">Register</button>
-                                                    </div>
-                                                </Form>
-                                            </Formik>
-                                        </div>
+                                                </div>
+                                                <div className="form-group">
+                                                    <label htmlFor="lastName" className='text-dark fw-bolder'>Last Name</label>
+                                                    <Field type="text"
+                                                        className="form-control"
+                                                        id="lastName"
+                                                        name='lastName'
+                                                        placeholder="Last Name" />
+                                                    <ErrorMessage name="lastName" component="div" className='text-danger' />
+                                                </div>
+                                                <StateCityDropdown />
+                                             
+                                                <div className="form-group">
+                                                    <label htmlFor="email" className='text-dark fw-bolder'>Email</label>
+                                                    <Field
+                                                        type="email"
+                                                        className="form-control"
+                                                        id="email"
+                                                        name="email"
+                                                        placeholder="Email" />
+                                                    <ErrorMessage name="email" component="div" className='text-danger' />
+                                                </div>
+                                                <div className="form-group">
+                                                    <label htmlFor="password" className='text-dark fw-bolder'>Password</label>
+                                                    <Field type="password"
+                                                        className="form-control"
+                                                        id="password"
+                                                        name='password'
+                                                        placeholder="password" />
+                                                    <ErrorMessage name="password" component="div" className='text-danger' />
+                                                </div>
+                                                <div className="form-group">
+                                                    <label htmlFor="confirm_password" className='text-dark fw-bolder'>Confirm Password</label>
+                                                    <Field type="password"
+                                                        className="form-control"
+                                                        id="confirm_password"
+                                                        name='confirm_password'
+                                                        placeholder="confirm password" />
+                                                    <ErrorMessage name="confirm_password" component="div" className='text-danger' />
+                                                </div>
+                                                <div className="modal-footer">
+                                                    <button type="submit" className="btn btn-success text-center">Register</button>
+                                                </div>
+                                            </Form>
+                                        </Formik>
                                     </div>
                                 </div>
                             </div>
-
-                        </form>
+                        </div>
                     </div>
                 </div>
             </nav>

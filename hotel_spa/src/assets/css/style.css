@@ -16,8 +16,6 @@
     box-shadow: 0px 1px 1px 1px;
 }
 
-
-
 .staffImg {
     box-shadow: 0px 1px 1px 1px;
     height: 450px;
@@ -71,8 +69,8 @@ li {
     margin-left: 10px;
 }
 
-
 .footerIconHover:hover{
     background-color:rgb(255, 255, 255);
     border-radius: 50px;
 }
+
