@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import MapComponent from './MapComponent';
+
+
+
 
 function Footer() {
 
@@ -17,7 +21,7 @@ function Footer() {
                 </ul>
               </div>
 
-              <div className='col-lg-5  p-4'>
+              <div className='col-lg-5 p-4'>
                 <h6>Customer Service</h6>
                 <ul className='list-unstyled footerlist'>
                   <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>Customer Service</Link></li>
@@ -51,6 +55,15 @@ function Footer() {
         </div>
 
         <div className='bg-dark col-sm-12 col-lg-5 text-white'>
+          <div className='row justify-content-start'>
+            <div className='col-lg-4'>
+              <h3>Location</h3>
+              <MapComponent />
+            </div>
+            <div className='col-lg-4'>
+              <h3>Weather</h3>
+            </div>
+          </div>
           <p className='pt-4'></p>
           <h4 className='mt-5 '>CONNECT WITH XYZ HOTEL</h4>
           <span className='fs-3'>
@@ -60,7 +73,7 @@ function Footer() {
             <Link to='https://www.linkedin.com/login'><i className="fa fa-linkedin  p-2 mt-2  ms-4 footerIconHover"></i></Link>
           </span>
         </div>
-         
+
         <div className='bg-dark bg-gradient text-white text-center pt-3'>
           <p>&copy; 2023 Hotels Corporation</p>
         </div>

@@ -36,36 +36,35 @@ const Header = () => {
 
     return (
         <div className='Header'>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark ">
                 <div className="container-fluid">
-                    <Link to='/home' className="navbar-brand" href="#"><span className='headerHeading fw-bolder ms-3 text-uppercase text-warning'>MK</span>
-                        <span className='headerHeading fw-bolder text-uppercase text-white'>Hotels</span></Link>
-                    <button className="navbar-toggler bg-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <Link to='/home' className="navbar-brand text-dark fw-bolder fs-1 ms-5" >De Alara</Link>
+                    <button className="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase ">
                             <li className="nav-item">
-                                <Link className="nav-link  px-5 text-white fw-5 active" aria-current="page" to='/home'>Home</Link>
+                                <Link className="nav-link  px-5 text-dark fw-bolder active" aria-current="page" to='/home'>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link   px-5 text-white fw-5 " aria-current="page" to='/aboutus'>About</Link>
+                                <Link className="nav-link px-5 text-dark fw-bolder   " aria-current="page" to='/aboutus'>About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link  px-5 text-white fw-5 " to="/rooms" >Rooms</Link>
+                                <Link className="nav-link px-5 text-dark fw-bolder   " to="/rooms" >Rooms</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link  px-5 text-white fw-5 " to="/contact" >Contact</Link>
+                                <Link className="nav-link  px-5 text-dark fw-bolder  " to="/contact" >Contact</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link  px-5 text-white fw-5 border border-rounded-5 " to="/booking_engine" >Book to Stay</Link>
+                                <Link className="nav-link px-5 text-dark  border border-rounded-5 fw-bolder text-uppercase transitionEffect_headerBookbtn " to="/booking_engine" >Book to Stay</Link>
                             </li>
                         </ul>
 
                         {/* <form className="d-flex"> */}
                         <span>
-                            <i className="fa fa-user-circle-o text-white fs-5 ps-5"></i>
-                            <Link to='/' className='text-decoration-none text-white ms-2' data-toggle="modal" data-target="#myModal">
+                            <i className="fa fa-user-circle-o text-danger fs-5 ps-5"></i>
+                            <Link to='/' className='text-decoration-none text-dark me-5' data-toggle="modal" data-target="#myModal">
                                 Sign In or Register
                             </Link>
                         </span>
@@ -102,7 +101,7 @@ const Header = () => {
                                                     <ErrorMessage name="lastName" component="div" className='text-danger' />
                                                 </div>
                                                 <StateCityDropdown />
-                                             
+
                                                 <div className="form-group">
                                                     <label htmlFor="email" className='text-dark fw-bolder'>Email</label>
                                                     <Field

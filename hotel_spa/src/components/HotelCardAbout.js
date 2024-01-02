@@ -12,7 +12,6 @@ const HotelCardAbout = () => {
             // console.log(res)
             setHotelImg(res.data)
          })
-        
         .catch(err=>console.log(err))
     },[])
     return (
@@ -31,7 +30,7 @@ const HotelCardAbout = () => {
                             <Services />
                         </div>
                     </div>
-                        <Link to='/booking_engine' type='btn' className='btn btn-primary rounded-5 p-2'>Book Now </Link>
+                        <Link to='/booking_engine' type='btn' className='btn border border-secondary  rounded-5 p-2 transitionEffect_BookBtn fw-bolder'>Book Now </Link>
                 </div>
             </div>
         </div>

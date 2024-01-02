@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 
 const Services = () => {
@@ -14,16 +14,16 @@ const Services = () => {
     })
     return (
         <div>
-            <table className='table table-hover '>
+            <table className='table table-hover'>
                 <thead>
                     <tr className='p-2'>
-                        <th className='border border-0 fw-light fs-2'>Room Aminites</th>
+                        <th className='border border-0 fw-light fs-2'>Our Services</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {services.map((item,id)=>(
-                        <tr>
-                           <td className='p-3 fw-bold fs-6'>{item.services}</td>
+                    {services.map((item, id) => (
+                        <tr key={id}>
+                            <td className='p-3 fw-bold fs-6'>{item.services}</td>
                         </tr>
                     ))}
                 </tbody>
@@ -32,4 +32,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Services;

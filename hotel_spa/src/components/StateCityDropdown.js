@@ -11,7 +11,7 @@ function StateCityDropdown() {
   const [countryid, setCountryid] = useState(0);
   const [stateid, setstateid] = useState(0);
   return (
-    <div>
+    <div className="modelForm_input">
       <label htmlFor="lastName" className='text-dark fw-bolder'>Country</label>
       <CountrySelect
         onChange={(e) => {

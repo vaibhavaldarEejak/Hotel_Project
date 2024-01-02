@@ -11,6 +11,28 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.bookingBtn_bg{
+    background-color: #fe7d25;
+}
+
+.modelForm_input{
+    border: none;
+}
+
+
+/* transisition effect for booking btn in Header section */
+
+.transitionEffect_headerBookbtn{
+    transition: background-color 0.6s ease-in-out;
+}
+.transitionEffect_headerBookbtn:hover{
+    /* transition-behavior: normal; */
+    color:white;
+    background-color: #fe7d25;
+}
+
+
+
 /* card */
 .cardImg:hover {
     box-shadow: 0px 1px 1px 1px;
@@ -21,9 +43,11 @@
     height: 450px;
 }
 
+
+
 /* Home section form */
 .formClass {
-    background-color: #EBEBEB;
+    background-color: #ffffff;
 }
 
 .formDisplay {
@@ -36,21 +60,25 @@
     width: 70%;
 }
 
+
 /* Aboutus.. */
-.bgImg_About {
-    background-image: url("https://asiatech.in/booking_engine/admin/hotel_gal…pp_Image_2023-02-20_at_3.57.40_PM.1677306337.jpeg");
-    padding: 120px 0px;
-    background-size: 100% 100%;
-    background-position: 50% 0px;
-}
-
-
  .aboutus_HeadingHotel{
     font-family: 'Dancing Script', cursive;
     font-size: 900;
  }
 
+ /* transisition effect for sendMessage btn in contact section */
 
+.transitionEffect_BookBtn{
+    transition: background-color 0.6s ease-in-out;
+    background-color: #fff;
+    /* color:white */
+}
+.transitionEffect_BookBtn:hover{
+    background-color: #fe7d25;
+    color:white;
+    font-weight: bold;
+}
 
 
 /* contact */
@@ -62,21 +90,34 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.contactSection {
-    background-color: #fe7d25;
-}
-
 .contactSendMessage_heading {
     font-family: 'Marcellus",sans-serif';
 }
 
-.contact_InfoCard:hover{
-    background-color: #fe7d25;
-}
 .contactSec_Info{
     font-family: 'Dancing Script', cursive;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
+    color:#27436d
+}
+
+/* transisition effect for card in contact section */
+
+.transitionEffect_ContactCard{
+    transition: background-color 0.6s ease-in-out;
+    box-shadow: 1px 1px 1px 1px;
+}
+.transitionEffect_ContactCard:hover{
+    background-color: #fe7d25;
+}
+
+/* transisition effect for sendMessage btn in contact section */
+
+.transitionEffect_ContactMessageBtn{
+    transition: background-color 0.6s ease-in-out;
+}
+.transitionEffect_ContactMessageBtn:hover{
+    background-color: #fe7d25;
 }
 
 
@@ -98,4 +139,23 @@ li {
 .footerIconHover:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
+}
+
+/* Booking Page section */
+.bgImg_BookingPage {
+    background-image: url('https://alara-park-hotel-alanya-tr.hotelmix.it/data/Photos/OriginalPhoto/2512/251231/251231121/Alara-Park-Hotel-Avsallar-Exterior.JPEG');
+    background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+   height:350px;
+
+    
+    text-align: center;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headingBg_bookingPage{
+   background-color: #fd7f29;
 }
