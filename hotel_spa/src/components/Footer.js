@@ -56,12 +56,9 @@ function Footer() {
 
         <div className='bg-dark col-sm-12 col-lg-5 text-white'>
           <div className='row justify-content-start'>
-            <div className='col-lg-4'>
-              <h3>Location</h3>
+            <div className='col-lg-3'>
+              <h3 className='mt-3'>Location</h3>
               <MapComponent />
-            </div>
-            <div className='col-lg-4'>
-              <h3>Weather</h3>
             </div>
           </div>
           <p className='pt-4'></p>

@@ -11,23 +11,24 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.bookingBtn_bg{
+.bookingBtn_bg {
     background-color: #fe7d25;
 }
 
-.modelForm_input{
+.modelForm_input {
     border: none;
 }
 
 
 /* transisition effect for booking btn in Header section */
 
-.transitionEffect_headerBookbtn{
+.transitionEffect_headerBookbtn {
     transition: background-color 0.6s ease-in-out;
 }
-.transitionEffect_headerBookbtn:hover{
+
+.transitionEffect_headerBookbtn:hover {
     /* transition-behavior: normal; */
-    color:white;
+    color: white;
     background-color: #fe7d25;
 }
 
@@ -62,21 +63,32 @@
 
 
 /* Aboutus.. */
- .aboutus_HeadingHotel{
+.bgImg_AboutPage {
+    background-image: url('https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/breadcrumb-01.jpg');
+    height: 350px;
+    text-align: center;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.aboutus_HeadingHotel {
     font-family: 'Dancing Script', cursive;
-    font-size: 900;
- }
+    font-size: 45px;
+    font-weight: bold;
+    color: #27436d
+}
 
- /* transisition effect for sendMessage btn in contact section */
+/* transisition effect for sendMessage btn in contact section */
 
-.transitionEffect_BookBtn{
+.transitionEffect_BookBtn {
     transition: background-color 0.6s ease-in-out;
     background-color: #fff;
     /* color:white */
 }
-.transitionEffect_BookBtn:hover{
+
+.transitionEffect_BookBtn:hover {
     background-color: #fe7d25;
-    color:white;
+    color: white;
     font-weight: bold;
 }
 
@@ -94,29 +106,31 @@
     font-family: 'Marcellus",sans-serif';
 }
 
-.contactSec_Info{
+.contactSec_Info {
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     font-weight: bold;
-    color:#27436d
+    color: #27436d
 }
 
 /* transisition effect for card in contact section */
 
-.transitionEffect_ContactCard{
+.transitionEffect_ContactCard {
     transition: background-color 0.6s ease-in-out;
     box-shadow: 1px 1px 1px 1px;
 }
-.transitionEffect_ContactCard:hover{
+
+.transitionEffect_ContactCard:hover {
     background-color: #fe7d25;
 }
 
 /* transisition effect for sendMessage btn in contact section */
 
-.transitionEffect_ContactMessageBtn{
+.transitionEffect_ContactMessageBtn {
     transition: background-color 0.6s ease-in-out;
 }
-.transitionEffect_ContactMessageBtn:hover{
+
+.transitionEffect_ContactMessageBtn:hover {
     background-color: #fe7d25;
 }
 
@@ -145,17 +159,22 @@ li {
 .bgImg_BookingPage {
     background-image: url('https://alara-park-hotel-alanya-tr.hotelmix.it/data/Photos/OriginalPhoto/2512/251231/251231121/Alara-Park-Hotel-Avsallar-Exterior.JPEG');
     background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: 100%;
-   height:350px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 350px;
 
-    
+
     text-align: center;
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.headingBg_bookingPage{
-   background-color: #fd7f29;
+.headingBg_bookingPage {
+    background-color: #fd7f29;
 }
+
+/* Service Card Component-> */
+/* .serviceCardImg_padding {
+    padding: 10px 150px;
+} */

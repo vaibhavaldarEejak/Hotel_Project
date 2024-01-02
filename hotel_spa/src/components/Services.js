@@ -14,10 +14,10 @@ const Services = () => {
     })
     return (
         <div>
-            <table className='table table-hover'>
+            <table className='table table-hover table-bordered'>
                 <thead>
-                    <tr className='p-2'>
-                        <th className='border border-0 fw-light fs-2'>Our Services</th>
+                    <tr className='p-2 border border-0'>
+                        <th className='border-0 fw-light fs-2'>Our Services</th>
                     </tr>
                 </thead>
                 <tbody>

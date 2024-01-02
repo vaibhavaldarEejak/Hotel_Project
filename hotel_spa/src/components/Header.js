@@ -36,9 +36,9 @@ const Header = () => {
 
     return (
         <div className='Header'>
-            <nav className="navbar navbar-expand-lg navbar-dark ">
-                <div className="container-fluid">
-                    <Link to='/home' className="navbar-brand text-dark fw-bolder fs-1 ms-5" >De Alara</Link>
+            <nav className="navbar navbar-expand-lg navbar-dark">
+                <div className="container-fluid ">
+                    <Link to='/home' className="navbar-brand text-dark fw-bolder fs-1 ms-5" >de Alara</Link>
                     <button className="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -54,7 +54,7 @@ const Header = () => {
                                 <Link className="nav-link px-5 text-dark fw-bolder   " to="/rooms" >Rooms</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link  px-5 text-dark fw-bolder  " to="/contact" >Contact</Link>
+                                <Link className="nav-link  px-5 text-dark fw-bolder  " to="/contact" >Contact Us</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link px-5 text-dark  border border-rounded-5 fw-bolder text-uppercase transitionEffect_headerBookbtn " to="/booking_engine" >Book to Stay</Link>
@@ -64,7 +64,7 @@ const Header = () => {
                         {/* <form className="d-flex"> */}
                         <span>
                             <i className="fa fa-user-circle-o text-danger fs-5 ps-5"></i>
-                            <Link to='/' className='text-decoration-none text-dark me-5' data-toggle="modal" data-target="#myModal">
+                            <Link to='/' className='text-decoration-none text-dark fw-bolder ms-2' data-toggle="modal" data-target="#myModal">
                                 Sign In or Register
                             </Link>
                         </span>
@@ -100,8 +100,9 @@ const Header = () => {
                                                         placeholder="Last Name" />
                                                     <ErrorMessage name="lastName" component="div" className='text-danger' />
                                                 </div>
+                                                <div className="form-group">
                                                 <StateCityDropdown />
-
+                                                </div>
                                                 <div className="form-group">
                                                     <label htmlFor="email" className='text-dark fw-bolder'>Email</label>
                                                     <Field

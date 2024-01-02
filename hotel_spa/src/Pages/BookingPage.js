@@ -9,7 +9,7 @@ const BookingPage = () => {
                 <h3 className='text-start position-relative top-50 ps-5'>Location-Goa,</h3>
             </div>
             <div className='container p-4 formClass mt-5'>
-                <h6 className='headingBg_bookingPage p-3 fw-bolder text-white'>Serach for Availabilty</h6>
+                <h6 className='headingBg_bookingPage p-3 fw-bolder text-dark'>Serach for Availabilty</h6>
                 <div className='row '>
                     <form className="row mt-4 mb-3 ">
                         <div className="col-lg-3 formDisplay">
@@ -31,7 +31,7 @@ const BookingPage = () => {
                             </select>
                         </div>
                         <div className="col-lg-3 ">
-                            <Link type='btn' className="btn headingBg_bookingPage  text-uppercase mt-1 w-75 p-2 text-white fw-bolder">Search</Link>
+                            <Link type='btn' className="btn headingBg_bookingPage  text-uppercase mt-1 w-75 p-2 text-dark fw-bolder">Search</Link>
                         </div>
                     </form>
                 </div>

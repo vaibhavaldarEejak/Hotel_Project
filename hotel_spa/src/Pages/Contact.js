@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import MapComponent from '../components/MapComponent';
 import '../assets/css/style.css'
-import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -34,8 +35,8 @@ const Contact = () => {
               <i className="fa fa-map-marker pe-2 text-danger fs-4"></i>
               <span className='text-uppercase pt-3 contactSec_Info'>Location</span>
             </span>
-            <h5 className='mt-3'>30 Broklyn Golden Street.</h5>
-            <h5>India</h5>
+            <h5 className='mt-3'>de alara, Hotel</h5>
+            <h5>Baga Beach,Goa</h5>
           </div>
 
           <div className='col-sm-12 col-lg-12 mt-5 mb-5'>
@@ -59,7 +60,6 @@ const Contact = () => {
               </div>
             </form>
           </div>
-
         </div>
       </div>
     </>
