@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import MapComponent from '../components/MapComponent';
 import '../assets/css/style.css'
 
 const Contact = () => {
   return (
     <>
       <div className='bgImg_Contact mb-4 pt-5'>
-        <h1 className='pt-5 align-item-center'>Contact</h1>
+        <h1 className='pt-5 align-item-center'>Contact Us</h1>
         <span className='fs-5'><Link to='/home' className='text-white text-decoration-none'>Home</Link >/ Contact</span>
       </div>
       <div className='container'>
@@ -41,12 +40,12 @@ const Contact = () => {
 
           <div className='col-sm-12 col-lg-12 mt-5 mb-5'>
             <h1 className=' text-center contactSec_Info fs-1'>Drop us a Message</h1>
-            <form className="row g-3 mt-4 ">
+            <form className="row g-3 mt-4">
               <div className="col-12">
-                <input type="text" className="form-control p-3" id="staticEmail2" placeholder='Your Name' />
+                <input type="text" className="form-control p-3" id="name1" placeholder='Your Name' />
               </div>
               <div className="col-6">
-                <input type="email" className="form-control p-3" id="inputPassword2" placeholder="Your Email" />
+                <input type="email" className="form-control p-3" id="staticEmail" placeholder="Your Email" />
               </div>
               <div className="col-6">
                 <input type="text" className="form-control p-3" id="inputPassword2" placeholder="Your Phone" />
@@ -56,12 +55,17 @@ const Contact = () => {
                 <label htmlFor="floatingTextarea2">Write Message</label>
               </div>
               <div className="col text-center">
-                <Link to='/' type="submit" className="btn text-dark mb-3 p-3 fw-bolder  border border-3 transitionEffect_ContactMessageBtn">Send A Message</Link>
+                <Link to='/' type="submit" className="btn text-dark mb-3 p-3 fw-bolder  border border rounded-pill transitionEffect_ContactMessageBtn">Send A Message</Link>
               </div>
             </form>
           </div>
         </div>
       </div>
+      <iframe className='contactMapIframe'
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.5457928242614!2d73.74113531436138!3d15.547606889309777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbffb3a9b5bbd0b%3A0xc860d9ed98c890b2!2sBaga%20Beach!5e0!3m2!1sen!2sin!4v1637309850935!5m2!1sen!2sin"
+        height="500"
+      // loading="lazy"
+      ></iframe>
     </>
   )
 }

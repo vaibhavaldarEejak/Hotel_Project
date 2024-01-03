@@ -36,7 +36,7 @@ const BookingPage = () => {
                     </form>
                 </div>
                 <div className='mt-2 '>
-                    <div className="accordion accordion-flush" id="accordionFlushExample">
+                    <div className=" accordion-flush" id="accordionFlushExample">
                         <div className="accordion-item mt-5 ">
                             <h2 className="accordion-header" id="flush-headingOne">
                                 <button className="accordion-button collapsed headingBg_bookingPage fw-bolder " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">

@@ -29,11 +29,11 @@ const HotelCardAbout = () => {
                            <p>dee Fellows Riverside Resortis a luxury resort with a stylish elegance  here contemporary style, new age amenities, and essential services combine to give travellers a harmonious experience. Our resort has all the services that are needed, and all the essentials are in place. Innovation in services served at the resort and benchmarked products soaked in the essence of its location forms the basis of our commitment to responsible luxury that creates the milestones of our resort’s value proposition.</p>
                         </div>
                     </div>
-                        <Link to='/booking_engine' type='btn' className='btn border border-secondary  rounded-5 p-2 transitionEffect_BookBtn fw-bolder'>Book Now </Link>
+                        <Link to='/booking_engine' type='btn' className='btn border border- rounded-pill p-3 w-25 transitionEffect_BookBtn fw-bolder'>Book Now </Link>
                 </div>
             </div>
         </div>
     )
 }
 
-export default HotelCardAbout
+export default HotelCardAbout;

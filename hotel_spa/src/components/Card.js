@@ -55,7 +55,7 @@ const Card = () => {
             <div className='row mt-5 d-flex-wrap'>
                 {roomsImgData.map((item, id) => (
                     <div className='col-lg-4' key={id}>
-                        <div className="card mb-3 mt-3 p-2 border  border-1 mb-5 mx-auto">
+                        <div className="card mb-3 mt-3 p-2 border  border-1 mb-5 mx-auto cardImg">
                             <img src={item.src} className="card-img-top mb-4" alt={item.id} />
                             <div className="card-body text-center p-3 fs-4">
                                 <p>{item.title}</p>

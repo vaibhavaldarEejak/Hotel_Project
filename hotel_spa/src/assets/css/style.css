@@ -2,26 +2,18 @@
 .headerHeading {
     font-size: 3rem;
 }
-
 .ourRoomHeading {
-    margin: 50px 0 0 0;
-    font-size: 9vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
     font-weight: bold;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.bookingBtn_bg {
-    background-color: #fe7d25;
+    color: #27436d
 }
 
 .modelForm_input {
     border: none;
 }
 
-
 /* transisition effect for booking btn in Header section */
-
 .transitionEffect_headerBookbtn {
     transition: background-color 0.6s ease-in-out;
 }
@@ -44,8 +36,6 @@
     height: 450px;
 }
 
-
-
 /* Home section form */
 .formClass {
     background-color: #ffffff;
@@ -61,11 +51,12 @@
     width: 70%;
 }
 
-
 /* Aboutus.. */
 .bgImg_AboutPage {
-    background-image: url('https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/breadcrumb-01.jpg');
-    height: 350px;
+    background-image: url('https://media.istockphoto.com/id/104731717/photo/luxury-resort.jpg?s=1024x1024&w=is&k=20&c=lNQVwTuYzo9wQZfZzHioQMCJRTHWVzhX1UXmcqgnF5k=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     text-align: center;
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -83,7 +74,6 @@
 .transitionEffect_BookBtn {
     transition: background-color 0.6s ease-in-out;
     background-color: #fff;
-    /* color:white */
 }
 
 .transitionEffect_BookBtn:hover {
@@ -92,11 +82,11 @@
     font-weight: bold;
 }
 
-
 /* contact */
 .bgImg_Contact {
     background-image: url('https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/breadcrumb-01.jpg');
-    height: 350px;
+    background-size: cover;
+    height: 500px;
     text-align: center;
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -112,9 +102,12 @@
     font-weight: bold;
     color: #27436d
 }
+.contactMapIframe{
+    width: 100%;
+}
+
 
 /* transisition effect for card in contact section */
-
 .transitionEffect_ContactCard {
     transition: background-color 0.6s ease-in-out;
     box-shadow: 1px 1px 1px 1px;
@@ -125,13 +118,20 @@
 }
 
 /* transisition effect for sendMessage btn in contact section */
-
 .transitionEffect_ContactMessageBtn {
     transition: background-color 0.6s ease-in-out;
 }
 
 .transitionEffect_ContactMessageBtn:hover {
     background-color: #fe7d25;
+}
+
+/* Room page-> */
+.roomsSec_Heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #27436d
 }
 
 
@@ -155,6 +155,18 @@ li {
     border-radius: 50px;
 }
 
+.footerImg{
+    width: 100%;
+}
+
+.location_ContactFooter_Heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
 /* Booking Page section */
 .bgImg_BookingPage {
     background-image: url('https://alara-park-hotel-alanya-tr.hotelmix.it/data/Photos/OriginalPhoto/2512/251231/251231121/Alara-Park-Hotel-Avsallar-Exterior.JPEG');
@@ -174,7 +186,14 @@ li {
     background-color: #fd7f29;
 }
 
-/* Service Card Component-> */
-/* .serviceCardImg_padding {
-    padding: 10px 150px;
-} */
+/* services table hover */
+/* transisition effect for booking btn in Header section */
+.transitionEffect_serviceTable {
+    transition: background-color 0.7s ease-in-out;
+}
+
+.transitionEffect_serviceTable:hover {
+    /* transition-behavior: normal; */
+    color: white;
+    background-color: #fe7d25;
+}

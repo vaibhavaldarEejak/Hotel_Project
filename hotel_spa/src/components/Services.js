@@ -14,15 +14,15 @@ const Services = () => {
     })
     return (
         <div>
-            <table className='table table-hover table-bordered'>
-                <thead>
-                    <tr className='p-2 border border-0'>
-                        <th className='border-0 fw-light fs-2'>Our Services</th>
+            <table className='table table-bordered'>
+                <thead className=''>
+                    <tr className='p-2 border border-0 '>
+                        <th className='border-0 fw-light fs-2 roomsSec_Heading'>Our Services</th>
                     </tr>
                 </thead>
                 <tbody>
                     {services.map((item, id) => (
-                        <tr key={id}>
+                        <tr key={id} className='transitionEffect_serviceTable'>
                             <td className='p-3 fw-bold fs-6'>{item.services}</td>
                         </tr>
                     ))}

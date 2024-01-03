@@ -21,7 +21,7 @@ const ServicesCardComp = () => {
                         <div className='col-lg-3' key={id}>
                             <div className="card mb-3 mt-3  border border-1">
                                 <img src={item.image} className="card-img-to p-5" alt={item.id} height="200" />
-                                <div className="card-body text-center fw-bold fs-4">
+                                <div className="card-body text-center aboutus_HeadingHotel fw-bold fs-4">
                                     <p>{item.services}</p>
                                 </div>
                             </div>
