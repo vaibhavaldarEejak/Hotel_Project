@@ -24,7 +24,7 @@ function Footer() {
                 </div>
 
                 <div className='col-lg-5 p-4'>
-                  <h6>Customer Service</h6>
+                  <h6 className='text-uppercase'>Customer Service</h6>
                   <ul className='list-unstyled footerlist'>
                     <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>Customer Service</Link></li>
                     <li><Link to='/' className='text-secondary fw-2 text-decoration-none '>FAQs</Link></li>
@@ -53,9 +53,9 @@ function Footer() {
                   <li><Link to='/home' className='text-secondary fw-2 text-decoration-none '>Residenes</Link></li>
                 </ul>
               </div>
+              
             </div>
           </div>
-
           <div className='bg-dark col-sm-12 col-lg-5 text-white'>
             <div className='row justify-content-start'>
               <div className='col-lg-12'>
@@ -84,16 +84,16 @@ function Footer() {
                 <Link to='/' className='text-decoration-none text-white fw-2'>+919999999</Link>
                 </span>
             </div>
-
+           
           </div>
 
           <div className='bg-dark bg-gradient text-white pt-3 pb-3 d-flex'>
-            <span className='offset-3 mt-3'>&copy; 2023 Hotels Corporation</span>
-            <span className='fs-4 offset-4'>
-              <Link to='https://www.facebook.com/' className='footer_Icon'><i className="fa fa-facebook  p-2 mt-2 footerIconHover "></i></Link>
-              <Link to='https://www.instagram.com/'><i className="fa fa-instagram text-danger p-2 mt-2  ms-4 footerIconHover"></i></Link>
-              <Link to='https://twitter.com/i/flow/login'><i className="fa fa-twitter text-info p-2 mt-2  ms-4 footerIconHover"></i></Link>
-              <Link to='https://www.linkedin.com/login'><i className="fa fa-linkedin  p-2 mt-2  ms-4 footerIconHover"></i></Link>
+            <span className=' mt-3 offset-4'>&copy; 2023 Hotels Corporation</span>
+            <span className='offset-3'>
+              <Link to='https://www.facebook.com/' className='footer_Icon'><i className="fa fa-facebook p-2 mt-2 footerIconHover "></i></Link>
+              <Link to='https://www.instagram.com/'><i className="fa fa-instagram text-danger p-2 mt-2  footerIconHover"></i></Link>
+              <Link to='https://twitter.com/i/flow/login'><i className="fa fa-twitter text-info p-2 mt-2  footerIconHover"></i></Link>
+              <Link to='https://www.linkedin.com/login'><i className="fa fa-linkedin  p-2 mt-2  footerIconHover"></i></Link>
             </span>
           </div>
         </div>

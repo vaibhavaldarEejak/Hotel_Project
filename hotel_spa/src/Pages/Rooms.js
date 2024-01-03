@@ -17,7 +17,7 @@ const Rooms = () => {
     <>
 
       <div className='bgImg_Contact mb-4 pt-5'>
-        <h1 className='pt-5 align-item-center'>Rooms</h1>
+        <h1 className='allImgBg_Heading align-item-center'>Rooms</h1>
         <span className='fs-5'><Link to='/home' className='text-white text-decoration-none'>Home</Link >/ Rooms</span>
       </div>
       <div className='container mt-5 '>

@@ -9,9 +9,12 @@
     color: #27436d
 }
 
-.modelForm_input {
-    border: none;
+.loginForm{
+    box-shadow: 0px 20px 20px 0px rgb(221,221,221);
+    /* border: 5px solid rgb(255, 255, 255); */
 }
+
+
 
 /* transisition effect for booking btn in Header section */
 .transitionEffect_headerBookbtn {
@@ -25,15 +28,15 @@
 }
 
 
-
 /* card */
-.cardImg:hover {
-    box-shadow: 0px 1px 1px 1px;
+.cardImg{
+    box-shadow: 20px 20px 20px 20px rgb(247, 246, 246);
+    border: 5px solid rgb(255, 255, 255);
 }
 
 .staffImg {
-    box-shadow: 0px 1px 1px 1px;
-    height: 450px;
+    box-shadow: 20px 20px 20px 20px rgb(247, 246, 246);
+    border: 5px solid rgb(255, 255, 255);
 }
 
 /* Home section form */
@@ -91,6 +94,9 @@
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+  
 
 .contactSendMessage_heading {
     font-family: 'Marcellus",sans-serif';
@@ -174,7 +180,7 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    height: 350px;
+    height: 500px;
 
 
     text-align: center;
@@ -197,3 +203,8 @@ li {
     color: white;
     background-color: #fe7d25;
 }
+
+/* Background Images Heading->About,Room,Contact */
+.allImgBg_Heading{
+    padding-top: 150px;
+  }

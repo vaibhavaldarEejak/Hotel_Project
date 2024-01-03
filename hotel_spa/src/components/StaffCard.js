@@ -19,8 +19,8 @@ function StaffCard() {
             <div className='container mt-5 mb-5'>
                 <div className='row mt-5 d-flex-wrap'>
                     {staffImg.map((item, id) => (
-                        <div className='col-lg-4' key={id} >
-                            <div className="card mb-3 border border-2 mt-3 mb-5 justify-content-center" key={id}>
+                        <div className='col-lg-4 ' key={id} >
+                            <div className="card mb-3 staffImg mt-3 mb-5 justify-content-center " key={id}>
                                 <img src={item.src} className="card-img-top" alt='img'/>
                             </div>
                         </div>

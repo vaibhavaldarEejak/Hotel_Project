@@ -5,6 +5,7 @@ import Rooms from './Pages/Rooms';
 import Contact from './Pages/Contact';
 import AboutUs from './Pages/AboutUs';
 import BookingPage from './Pages/BookingPage';
+import LoginPage from './Pages/LoginPage';
 import Footer from './components/Footer';
 
 
@@ -20,8 +21,8 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/aboutus' element={<AboutUs />} />
           <Route path='/rooms' element={<Rooms />} />
-          <Route path='/contact' element={<Contact />} />
           <Route path='/booking_engine' element={<BookingPage />} />
+          <Route path='/login' element={<LoginPage />} />
 
         </Routes>
       <Footer />

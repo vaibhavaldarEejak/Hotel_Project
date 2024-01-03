@@ -31,7 +31,7 @@ const Home = () => {
           </div>
         </div>
 
-        <h1 className='text-uppercase fw-bolder text-center mt-4 ourRoomHeading'>Our Rooms</h1>
+        <h1 className='text-uppercase fw-bolder text-center mt-5 ourRoomHeading'>Our Rooms</h1>
         <div className='text-center mt-4'>
           <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit!</h4>
         </div>
