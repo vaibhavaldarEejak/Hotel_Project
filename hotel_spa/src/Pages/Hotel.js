@@ -6,7 +6,7 @@ import '../assets/css/style.css';
 
 
 
-const Rooms = () => {
+const Hotel = () => {
   const roomsImg = [
     {
       id: 1,
@@ -47,4 +47,4 @@ const Rooms = () => {
   )
 }
 
-export default Rooms;
+export default Hotel;

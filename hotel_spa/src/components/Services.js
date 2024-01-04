@@ -16,8 +16,8 @@ const Services = () => {
         <div>
             <table className='table table-bordered'>
                 <thead className=''>
-                    <tr className='p-2 border border-0 '>
-                        <th className='border-0 fw-light fs-2 roomsSec_Heading'>Our Services</th>
+                    <tr className='p-2 border border-1 bg_RoomAmenties '>
+                        <th className=' fw-light fs-2 roomsSec_Heading '>Room Amenities</th>
                     </tr>
                 </thead>
                 <tbody>

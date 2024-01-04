@@ -2,9 +2,17 @@
 .headerHeading {
     font-size: 3rem;
 }
+
 .ourRoomHeading {
     font-family: 'Dancing Script', cursive;
-    font-size: 55px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #27436d
+}
+
+.loginFormHeading {
+    font-family: 'Dancing Script', cursive;
+    /* font-size: 55px; */
     font-weight: bold;
     color: #27436d
 }
@@ -14,6 +22,9 @@
     /* border: 5px solid rgb(255, 255, 255); */
 }
 
+
+  
+  
 
 
 /* transisition effect for booking btn in Header section */
@@ -30,13 +41,8 @@
 
 /* card */
 .cardImg{
-    box-shadow: 20px 20px 20px 20px rgb(247, 246, 246);
-    border: 5px solid rgb(255, 255, 255);
-}
-
-.staffImg {
-    box-shadow: 20px 20px 20px 20px rgb(247, 246, 246);
-    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgb(247, 246, 246);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 /* Home section form */
@@ -52,6 +58,16 @@
 
 .formInput_Width {
     width: 70%;
+}
+
+.transitionEffect_HotelList {
+    transition: background-color 0.7s ease-in-out;
+}
+
+.transitionEffect_HotelList :hover {
+    /* transition-behavior: normal; */
+    color: white;
+    background-color: #fe7d25;
 }
 
 /* Aboutus.. */
@@ -71,6 +87,9 @@
     font-weight: bold;
     color: #27436d
 }
+
+
+
 
 /* transisition effect for sendMessage btn in contact section */
 
@@ -95,9 +114,6 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-  
-
 .contactSendMessage_heading {
     font-family: 'Marcellus",sans-serif';
 }
@@ -116,7 +132,8 @@
 /* transisition effect for card in contact section */
 .transitionEffect_ContactCard {
     transition: background-color 0.6s ease-in-out;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 5px 5px 5px 5px rgb(247, 246, 246);
+    /* border: 5px solid rgb(255, 255, 255); */
 }
 
 .transitionEffect_ContactCard:hover {
@@ -202,6 +219,10 @@ li {
     /* transition-behavior: normal; */
     color: white;
     background-color: #fe7d25;
+}
+
+.bg_RoomAmenties{
+    background-color: #f4f4f4;
 }
 
 /* Background Images Heading->About,Room,Contact */

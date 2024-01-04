@@ -1,18 +1,30 @@
 {
-  "staffImgData": [
+
+  "HotelListing": [
     {
-      "src": "https://media.istockphoto.com/id/1319014901/photo/receptionist-in-a-hotel-lobby-holding-a-clipboard.jpg?s=612x612&w=0&k=20&c=xVcZukZvsYS9USlsY1_TFTmpkmDZ1ZG2uoOD0zRJBbY="
+      "id":1,
+      "name":"De alara Baga,Goa",
+      "location":"Gauravaddo, Opp Lane Of Pizza Hut , Calangute, Bardez Goa",
+       "hotelsUrl":"https://www.google.com",
+      "src": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg"
     },
     {
-      "src": "https://watermark.lovepik.com/photo/50170/4746_lovepik-professional-service-staff-of-luxury-hotels-photo-image_wh1200.jpg"
+      "id":2,
+      "name":"De alara Calangute,Goa",
+      "location":"Gauravaddo, Opp Lane Of Pizza Hut , Calangute, Bardez Goa",
+      "hotelsUrl":"https://www.google.com",
+       "src": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg"
     },
     {
-      "src": "https://watermark.lovepik.com/photo/50751/2160.jpg_wh1200.jpg"
+      "id":3,
+      "name":"De alara Calangute,Goa",
+      "location":"Gauravaddo, Opp Lane Of Pizza Hut , Calangute, Bardez Goa",
+      "hotelsUrl":"https://www.google.com",
+       "src": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg"
     }
   ],
 
 "hotelsServices":[
-  {"services":"Laundry Service"},
   {"services":"Room Service"},
   {"services":"AC"},
   {"services":"Parking"},

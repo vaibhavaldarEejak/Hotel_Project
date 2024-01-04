@@ -12,7 +12,7 @@ function Footer() {
       <img src='https://deefellowresorts.com/assets/img/footer-bg1.png' className='footerImg' />
       <div className='container-fluid'>
         <div className='row'>
-          <div className=' bg-dark col-sm-12 col-lg-7'>
+          <div className='bg-dark col-sm-12 col-lg-7'>
             <div className=' text-dark text-white'>
               <div className='row  justify-content-center'>
                 <div className='col-lg-5  p-4'>

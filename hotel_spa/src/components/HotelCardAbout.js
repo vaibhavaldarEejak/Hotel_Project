@@ -22,7 +22,7 @@ const HotelCardAbout = () => {
                         ))}
                         <div className='col-lg-6 ps-5 fs-5'>
                             <p>Bestowing excellent hospitality to its every category of guests, dee Alara Prestige Inn, Resort reflects the culture and ethos of its location. With the perfect fusion of contemporary decor in the sumptuous interiors of the resort, the resort has set the bar of services much higher than the expectations of its guests. The concept of intuitive anticipatory service makes the guest experience unalloyed. The resort welcomes and offers hospitality to guests coming from all around the world. We are focussed on delivering high quality, the best value, and superior customer service for an ultimate and intimate travelling experience.
-                               <p className='mt-4'><span className='text-primary fw-bold'>dee Alara Prestige Inn </span>  is a luxury resort with a stylish elegance  here contemporary style, new age amenities, and essential services combine to give travellers a harmonious experience. Our resort has all the services that are needed, and all the essentials are in place. Innovation in services served at the resort and benchmarked products soaked in the essence of its location forms the basis of our commitment to responsible luxury that creates the milestones of our resort’s value proposition.</p></p>
+                              </p>
                         </div>
                     </div>
                     <Link to='/booking_engine' type='btn' className='btn border border- rounded-pill p-3 w-25 transitionEffect_BookBtn fw-bolder'>Book Now </Link>

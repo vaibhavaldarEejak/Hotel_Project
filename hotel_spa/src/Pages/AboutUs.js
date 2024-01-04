@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import '../assets/css/style.css'
 import HotelCardAbout from '../components/HotelCardAbout'
 import ServicesCardComp from '../components/ServicesCardComp'
+import Card from '../components/Card'
 
 
 const AboutUs = () => {
@@ -20,6 +21,8 @@ const AboutUs = () => {
         <div className='row'>
           <HotelCardAbout />
         </div>
+          <Card />
+
         <ServicesCardComp />
       </div>
     </>

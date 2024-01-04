@@ -33,8 +33,8 @@ const LoginPage = () => {
         <>
             <div className='container mt-5 '>
                 <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
-                    <Form className='w-50 mx-auto loginForm p-3'>
-                <h4>Create a Account</h4>
+                    <Form className='w-50 mx-auto loginForm p-5'>
+                        <h4 className='loginFormHeading'>Create a Account</h4>
                         <div className="form-group">
                             <label htmlFor="firstName" className='text-dark fw-bolder'>First Name</label>
                             <Field

@@ -5,12 +5,12 @@ const BookingPage = () => {
     return (
         <div>
             <div className='bgImg_BookingPage'>
-                <h1 className='text-start allImgBg_Heading'>de Alara hotel </h1>
-                <h3 className='text-start'>Location-Goa,</h3>
+                <h1 className='text-start ms-5 allImgBg_Heading'>de Alara hotel </h1>
+                <h3 className='text-start ms-5'>Location-Goa,</h3>
             </div>
             <div className='container p-4 formClass mt-5'>
                 <h6 className='headingBg_bookingPage p-3 fw-bolder text-dark'>Serach for Availabilty</h6>
-                <div className='row '>
+                <div className='row'>
                     <form className="row mt-4 mb-3 ">
                         <div className="col-lg-3 formDisplay">
                             <label>Check In</label>

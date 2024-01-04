@@ -16,12 +16,12 @@ const ServicesCardComp = () => {
         <>
             <div className='container mt-5 '>
                 <div className='row mt-5 d-flex-wrap'>
-                    <h2 className='text-center aboutus_HeadingHotel'>Our Sevrices</h2>
+                    <h2 className='text-center aboutus_HeadingHotel'>Our Services</h2>
                     {serviceCard.map((item, id) => (
                         <div className='col-lg-3' key={id}>
                             <div className="card mb-3 mt-5  cardImg">
                                 <img src={item.image} className="card-img-to p-5" alt={item.id} height="200" />
-                                <div className="card-body text-center aboutus_HeadingHotel fw-bold fs-4">
+                                <div className="card-body text-center aboutus_HeadingHotel fw-bold fs-4 ">
                                     <p>{item.services}</p>
                                 </div>
                             </div>

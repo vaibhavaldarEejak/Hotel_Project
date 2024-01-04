@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import axios from 'axios';
+// import axios from 'axios';
 import HotelRooms1 from '../assets/images/HotelRooms1.jpg'
 import HotelRooms2 from '../assets/images/HotelRooms2.jpg'
 import HotelRooms8 from '../assets/images/HotelRooms8.jpg'
@@ -53,10 +53,11 @@ const Card = () => {
     return (
         <div className='container mt-5 '>
             <div className='row mt-5 d-flex-wrap'>
+               <h3 className='text-center aboutus_HeadingHotel'>Our Rooms</h3>
                 {roomsImgData.map((item, id) => (
-                    <div className='col-lg-4' key={id}>
+                    <div className='col-lg-4 mt-5' key={id}>
                         <div className="card mb-3 mt-3 p-2  mb-5 mx-auto cardImg">
-                            <img src={item.src} className="card-img-top mb-4" alt={item.id} />
+                            <img src={item.src} className="card-img-top mb-4" alt={item.id}  />
                             <div className="card-body text-center p-3 fs-4">
                                 <p>{item.title}</p>
                                 <p className='mt-5 '>{item.price}</p>
