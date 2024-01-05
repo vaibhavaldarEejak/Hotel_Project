@@ -19,16 +19,19 @@ const HotelListing = () => {
                 <div className='row '>
                     {hotelList.map((item, id) => (
                         <div className='col-lg-12 mt-5' key={id}>
-                            <div className="card cardImg">
+                            <div className="card cardImg border">
                                 <div className="row g-0">
-                                    <div className="col-md-3">
+                                    <div className="col-md-4">
                                         <img src={item.src}  className="img-fluid rounded-start" alt="img" />
                                     </div>
-                                    <div className="col-md-8 ">
-                                        <div className="card-body ">
-                                            <h5 className="card-title fs-4">{item.name}</h5>
+                                    <div className="col-md-7">
+                                        <div className="card-body">
+                                            <Link to='/hotels' className='text-decoration-none fs-3'>{item.name}</Link>
                                             <p className="card-text">{item.location}</p>
-                                            <Link to='/booking_engine' className='btn bg-secondary'>Book Now</Link>
+                                        <img src={item.rating}  className="img-fluid rounded-start" alt="img" width='70'/>
+                                           <div className=' mt-3 border border-0'>
+                                            <Link to='/booking_engine' className='btn btn-outline-secondary'>Book Now</Link>
+                                           </div>
                                         </div>
                                     </div>
                                 </div>

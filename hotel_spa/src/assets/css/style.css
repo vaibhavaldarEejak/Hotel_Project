@@ -1,7 +1,5 @@
 /* Header */
-.headerHeading {
-    font-size: 3rem;
-}
+
 
 .ourRoomHeading {
     font-family: 'Dancing Script', cursive;
@@ -36,7 +34,7 @@
 
 /* card */
 .cardImg{
-    box-shadow: 5px 5px 5px 5px rgb(247, 246, 246);
+    box-shadow: 10px 10px 10px 10px rgb(247, 246, 246);
     border: 2px solid rgb(255, 255, 255);
 }
 
@@ -67,7 +65,7 @@
 
 /* Aboutus.. */
 .bgImg_AboutPage {
-    background-image: url('https://media.istockphoto.com/id/104731717/photo/luxury-resort.jpg?s=1024x1024&w=is&k=20&c=lNQVwTuYzo9wQZfZzHioQMCJRTHWVzhX1UXmcqgnF5k=');
+    background-image: url('https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -187,8 +185,8 @@ li {
 
 /* Booking Page section */
 .bgImg_BookingPage {
-    background-image: url('https://alara-park-hotel-alanya-tr.hotelmix.it/data/Photos/OriginalPhoto/2512/251231/251231121/Alara-Park-Hotel-Avsallar-Exterior.JPEG');
-    background-position: center;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/721/832/884/5-star-hotel-room-wallpaper-preview.jpg');
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -224,3 +222,32 @@ li {
 .allImgBg_Heading{
     padding-top: 150px;
   }
+
+  /* dropdown-hover */
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .dropDwnItm {
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content .dropDwnItm:hover {background-color: #faf7f7;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */

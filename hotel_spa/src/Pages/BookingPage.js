@@ -39,7 +39,7 @@ const BookingPage = () => {
                     <div className=" accordion-flush" id="accordionFlushExample">
                         <div className="accordion-item mt-5 ">
                             <h2 className="accordion-header" id="flush-headingOne">
-                                <button className="accordion-button collapsed headingBg_bookingPage fw-bolder " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <button className="accordion-button collapsed  fw-bolder " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                     Hotels Rooms
                                 </button>
                             </h2>
@@ -49,20 +49,20 @@ const BookingPage = () => {
                         </div>
                         <div className="accordion-item mt-3 ">
                             <h2 className="accordion-header" id="flush-headingTwo">
-                                <button className="accordion-button collapsed headingBg_bookingPage fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <button className="accordion-button collapsed  fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                     Cancelation Policy
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    <ul className='fw-bolder list-unstyled'>
+                                    <ul className='fw-bolder'>
                                         <li>Non Refundable</li>
                                     </ul></div>
                             </div>
                         </div>
                         <div className="accordion-item mt-3">
                             <h2 className="accordion-header" id="flush-headingThree">
-                                <button className="accordion-button collapsed  headingBg_bookingPage fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                <button className="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                      Check In/Out Policy
                                 </button>
                             </h2>

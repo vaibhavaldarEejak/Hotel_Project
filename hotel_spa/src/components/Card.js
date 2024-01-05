@@ -19,25 +19,25 @@ const Card = () => {
         },
         {
             id:2,
-            src: HotelRooms2,
+            src: HotelRooms1,
             title: "DELUX ROOM",
             price: "89$ / Night"
           },
           {
             id:3,
-            src: HotelRooms8,
+            src: HotelRooms1,
             title: "DELUX ROOM",
             price: "89$ / Night"
           },
           {
             id:3,
-            src: HotelRooms7,
+            src: HotelRooms4,
             title: "DELUX ROOM",
             price: "89$ / Night"
           },
           {
             id:5,
-            src: HotelRooms5,
+            src: HotelRooms4,
             title: "DELUX ROOM",
             price: "89$ / Night"
           },
@@ -51,7 +51,7 @@ const Card = () => {
       ]
 
     return (
-        <div className='container mt-5 '>
+        <div className='container mt-5'>
             <div className='row mt-5 d-flex-wrap'>
                <h3 className='text-center aboutus_HeadingHotel'>Our Rooms</h3>
                 {roomsImgData.map((item, id) => (

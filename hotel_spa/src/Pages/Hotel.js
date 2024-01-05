@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Services from '../components/Services';
-import Card from '../components/Card';
-import ServicesCardComp from '../components/ServicesCardComp';
+
 import HotelRooms1 from '../assets/images/HotelRooms1.jpg';
 import '../assets/css/style.css';
 
@@ -45,9 +44,7 @@ const Hotel = () => {
         </div>
       <Link to='/booking_engine' type='btn' className='btn border borde rounded-pill w-25 p-3 transitionEffect_BookBtn fw-bolder'>Book Now </Link>
       </div>
-      <Card />
-      
-      <ServicesCardComp />
+     
     </>
   )
 }
