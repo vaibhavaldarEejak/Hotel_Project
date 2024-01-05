@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
         <div>
-          {/* <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="2000">
                 <img src='https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/slider-2.jpg' className="d-block w-100" alt=""  />
@@ -29,7 +29,7 @@ const Home = () => {
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
             </button>
-          </div> */}
+          </div>
 
         </div>
 
