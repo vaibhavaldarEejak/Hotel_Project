@@ -6,38 +6,7 @@ import '../assets/css/style.css';
 const Header = () => {
     return (
         <div className='Header'>
-            {/* <nav className="container-fluid navbar navbar-expand-lg navbar-dark border">
-                <div className="container-fluid">
-                    <Link to='/home' className="navbar-brand text-dark ms-5" ><img src={deAlaraLogo} alt='logo' width='100' /></Link>
-                    <button className="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse  " id="navbarSupportedContent">
-                        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li className="nav-item dropdown ">
-                                <Link className="nav-link dropdown-toggle px-5 text-dark  fw-bolder " to="/home" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Home
-                                </Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link to='/home' className="dropdown-item">Something else here</Link></li>
-                                    <li><Link to='/home' className="dropdown-item">Something else here</Link></li>
-                                    <li><Link to='/home' className="dropdown-item">Something else here</Link></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown ">
-                                <Link className="nav-link dropdown-toggle px-5 text-dark  fw-bolder " to="/aboutus" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    About
-                                </Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link to='/aboutus' className="dropdown-item">Something else here</Link></li>
-                                    <li><Link to='/aboutus' className="dropdown-item">Something else here</Link></li>
-                                    <li><Link to='/aboutus' className="dropdown-item">Something else here</Link></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav> */}
+    
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
                     <Link to='/home' className="navbar-brand" ><img src={deAlaraLogo} alt='logo' width='100' /></Link>
@@ -67,7 +36,7 @@ const Header = () => {
                                 <Link className="nav-link px-3  fw-bold text-dark" to="/contact" >Contact Us</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link px-3 border border rounded-pill text-dark fw-bolder text-uppercase transitionEffect_headerBookbtn " to="/booking_engine" >Book to Stay</Link>
+                                <Link className="nav-link px-3 text-dark border border rounded-pill btn btn-outline-secondary fw-bolder text-uppercase transitionEffect_headerBookbtn " to="/booking_engine" >Book to Stay</Link>
                             </li>
                         </ul>
                         <span>

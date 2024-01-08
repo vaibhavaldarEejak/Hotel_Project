@@ -9,7 +9,7 @@ import ServicesCardComp from '../components/ServicesCardComp'
 const AboutUs = () => {
   return (
     <>
-      <div className='bgImg_AboutPage mb-4 pt-5'>
+      <div className='bgImg_AboutPage mb-4 pt-3'>
         <h1 className='allImgBg_Heading align-item-center'>About</h1>
         <span className='fs-5'><Link to='/home' className='text-white text-decoration-none'>Home</Link >/About</span>
       </div>

@@ -1,6 +1,4 @@
 /* Header */
-
-
 .ourRoomHeading {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
@@ -10,14 +8,12 @@
 
 .loginFormHeading {
     font-family: 'Dancing Script', cursive;
-    /* font-size: 55px; */
     font-weight: bold;
     color: #27436d
 }
 
-.loginForm{
-    box-shadow: 0px 20px 20px 0px rgb(221,221,221);
-    /* border: 5px solid rgb(255, 255, 255); */
+.loginForm {
+    box-shadow: 0px 20px 20px 0px rgb(221, 221, 221);
 }
 
 /* transisition effect for booking btn in Header section */
@@ -27,16 +23,15 @@
 
 .transitionEffect_headerBookbtn:hover {
     /* transition-behavior: normal; */
-    color: white;
-    background-color: #fe7d25;
+    background-color: #a5a4a4;
+    /* color: white; */
 }
 
 
 /* card */
-.cardImg{
+.cardImg {
     box-shadow: 5px 5px 5px 5px rgb(230, 228, 228);
-    /* border: 2px solid rgb(141, 137, 137); */
-    width:300px;
+    /* width: 300px; */
 }
 
 /* Home section form */
@@ -61,7 +56,7 @@
 .transitionEffect_HotelList :hover {
     /* transition-behavior: normal; */
     color: white;
-    background-color: #fe7d25;
+    background-color: #a5a4a4;
 }
 
 /* Aboutus.. */
@@ -69,7 +64,7 @@
     background-image: url('https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     text-align: center;
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -91,8 +86,8 @@
 }
 
 .transitionEffect_BookBtn:hover {
-    background-color: #fe7d25;
     color: white;
+    background-color: #a5a4a4;
     font-weight: bold;
 }
 
@@ -100,7 +95,7 @@
 .bgImg_Contact {
     background-image: url('https://gaviaspreview.com/wp/boliin/wp-content/uploads/2023/01/breadcrumb-01.jpg');
     background-size: cover;
-    height: 500px;
+    height: 400px;
     text-align: center;
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -116,10 +111,10 @@
     font-weight: bold;
     color: #27436d
 }
-.contactMapIframe{
+
+.contactMapIframe {
     width: 100%;
 }
-
 
 /* transisition effect for card in contact section */
 .transitionEffect_ContactCard {
@@ -130,6 +125,7 @@
 
 .transitionEffect_ContactCard:hover {
     background-color: #fe7d25;
+    color:white;
 }
 
 /* transisition effect for sendMessage btn in contact section */
@@ -138,7 +134,9 @@
 }
 
 .transitionEffect_ContactMessageBtn:hover {
-    background-color: #fe7d25;
+    background-color: #a5a4a4;
+    color:white;
+
 }
 
 /* Room page-> */
@@ -161,20 +159,20 @@ li {
     padding: 10px 0px 10px 0px;
 }
 
-.footer_coroprateSite {
+/* .footer_coroprateSite {
     margin-left: 10px;
-}
+} */
 
 .footerIconHover:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
 }
 
-.footerImg{
+.footerImg {
     width: 100%;
 }
 
-.location_ContactFooter_Heading{
+.location_ContactFooter_Heading {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     font-weight: bold;
@@ -189,7 +187,7 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    height: 500px;
+    height: 400px;
 
 
     text-align: center;
@@ -198,7 +196,8 @@ li {
 }
 
 .headingBg_bookingPage {
-    background-color: #fd7f29;
+    background-color: #a5a4a4;
+    padding: 20px;
 }
 
 /* services table hover */
@@ -210,44 +209,45 @@ li {
 .transitionEffect_serviceTable:hover {
     /* transition-behavior: normal; */
     color: white;
-    background-color: #fe7d25;
+    background-color: #a5a4a4;
 }
 
-.bg_RoomAmenties{
+.bg_RoomAmenties {
     background-color: #f4f4f4;
 }
 
 /* Background Images Heading->About,Room,Contact */
-.allImgBg_Heading{
+.allImgBg_Heading {
     padding-top: 150px;
-  }
+}
 
-  /* dropdown-hover */
-  
-  .dropdown {
+/* dropdown-hover */
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    /* min-width: 160px; */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content .dropDwnItm {
+}
+
+.dropdown-content .dropDwnItm {
     color: black;
-    padding: 0px 16px;
+    padding: 0px 20px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content .dropDwnItm:hover {background-color: #faf7f7;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /*  */
-  
+}
+
+.dropdown-content .dropDwnItm:hover {
+    background-color: #c5c3c3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

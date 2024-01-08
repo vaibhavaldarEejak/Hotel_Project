@@ -5,7 +5,7 @@ import '../assets/css/style.css'
 const Contact = () => {
   return (
     <>
-      <div className='bgImg_Contact mb-4 pt-5'>
+      <div className='bgImg_Contact mb-4 pt-3'>
         <h1 className='allImgBg_Heading align-item-center'>Contact Us</h1>
         <span className='fs-5'><Link to='/home' className='text-white text-decoration-none'>Home</Link >/ Contact</span>
       </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                 <label htmlFor="floatingTextarea2">Write Message</label>
               </div>
               <div className="col text-center">
-                <Link to='/' type="submit" className="btn text-dark mb-3 p-3 fw-bolder  border border rounded-pill transitionEffect_ContactMessageBtn">Send A Message</Link>
+                <Link to='/' type="submit" className="btn btn-outline-secondary mb-3 p-3 fw-bolder rounded-pill transitionEffect_ContactMessageBtn">Send A Message</Link>
               </div>
             </form>
           </div>
