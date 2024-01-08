@@ -21,6 +21,14 @@ const AboutUs = () => {
         <div className='row'>
           <HotelCardAbout />
         </div>
+        <div>
+        <ServicesCardComp />
+        </div>
+        <div className='row'>
+              <div>
+                  <h3 className='text-center mt-5'>Customer Review</h3>
+              </div>
+        </div>
       </div>
     </>
   )

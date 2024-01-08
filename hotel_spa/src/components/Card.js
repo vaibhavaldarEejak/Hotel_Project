@@ -53,14 +53,15 @@ const Card = () => {
     return (
         <div className='container mt-5'>
             <div className='row mt-5 d-flex-wrap'>
-               <h3 className='text-center aboutus_HeadingHotel'>Our Rooms</h3>
+               <h4 className='text-center'>Featured Rooms</h4>
+               <h3 className='text-center aboutus_HeadingHotel'>Discover Our Rooms</h3>
                 {roomsImgData.map((item, id) => (
                     <div className='col-lg-4 mt-5' key={id}>
                         <div className="card mb-3 mt-3 p-2  mb-5 mx-auto cardImg">
                             <img src={item.src} className="card-img-top mb-4" alt={item.id}  />
                             <div className="card-body text-center p-3 fs-4">
                                 <p>{item.title}</p>
-                                <p className='mt-5 '>{item.price}</p>
+                                <p className='mt-3'>{item.price}</p>
                             </div>
                         </div>
                     </div>

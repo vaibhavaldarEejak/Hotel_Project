@@ -34,8 +34,9 @@
 
 /* card */
 .cardImg{
-    box-shadow: 10px 10px 10px 10px rgb(247, 246, 246);
-    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgb(230, 228, 228);
+    /* border: 2px solid rgb(141, 137, 137); */
+    width:300px;
 }
 
 /* Home section form */
@@ -80,8 +81,6 @@
     font-weight: bold;
     color: #27436d
 }
-
-
 
 
 /* transisition effect for sendMessage btn in contact section */
@@ -194,7 +193,7 @@ li {
 
 
     text-align: center;
-    color: #fff;
+    color: #000000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -250,4 +249,5 @@ li {
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+  /*  */
+  

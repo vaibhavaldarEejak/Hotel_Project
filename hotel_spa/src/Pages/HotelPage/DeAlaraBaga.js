@@ -1,13 +1,24 @@
 import React from 'react'
 import Card from '../../components/Card';
-import ServicesCardComp from '../../components/ServicesCardComp';
+import Services from '../../components/Services';
 
 const DeAlaraBaga = () => {
   return (
-    <div>
-        <Card />
-        <ServicesCardComp />
-    </div>
+    <>
+       <div className='container'>
+        <h3 className='text-center'>De Alara Baga,Goa</h3>
+        <div className='row'>
+            <div className='col-lg-12'>
+              <Card />
+            </div>
+            <div className='col-lg-8'>
+              <Services />
+            </div>
+        </div>
+
+       </div>
+        
+    </>
   )
 }
 
