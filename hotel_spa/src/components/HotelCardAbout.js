@@ -21,7 +21,7 @@ const HotelCardAbout = () => {
                             <div className="card border border-0">
                                 <div className="row g-0">
                                     <div className="col-md-6">
-                                        <img src={item.src}  className="img-fluid rounded-start" alt="img" />
+                                        <img src={item.src}  className="img-fluid rounded-start" alt="img"/>
                                     </div>
                                     <div className="col-md-6 ">
                                         <div className="card-body ">

@@ -5,6 +5,9 @@
       "id":1,
       "name":"De alara Baga,Goa",
       "location":"Gauravaddo, Opp Lane Of Pizza Hut , Calangute, Bardez Goa",
+       "dailHouseKeeping":"Daily Housekeeping",
+       "attachedBathroom":"Attached Bathroom",
+       "swimmingPool":"Swimming Pool",
        "hotelsUrl":"https://www.google.com",
        "rating":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/4_stars.svg/2560px-4_stars.svg.png",
       "src": "https://images.pexels.com/photos/1320679/pexels-photo-1320679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -13,6 +16,9 @@
       "id":2,
       "name":"De alara Calangute,Goa",
       "location":"Gauravaddo, Opp Lane Of Pizza Hut , Calangute, Bardez Goa",
+      "dailHouseKeeping":"Daily Housekeeping",
+      "attachedBathroom":"Attached Bathroom",
+      "swimmingPool":"Swimming Pool",
       "hotelsUrl":"https://www.google.com",
        "rating":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/4_stars.svg/2560px-4_stars.svg.png",
        "src": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg"

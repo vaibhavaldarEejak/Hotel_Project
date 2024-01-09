@@ -22,11 +22,8 @@
 }
 
 .transitionEffect_headerBookbtn:hover {
-    /* transition-behavior: normal; */
     background-color: #a5a4a4;
-    /* color: white; */
 }
-
 
 /* card */
 .cardImg {
@@ -57,6 +54,11 @@
     /* transition-behavior: normal; */
     color: white;
     background-color: #a5a4a4;
+}
+
+/* hotelListing-Component */
+.box_shadowHotelList{
+    box-shadow: 5px 5px 5px 5px rgb(238, 237, 237);
 }
 
 /* Aboutus.. */

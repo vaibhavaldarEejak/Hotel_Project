@@ -36,7 +36,7 @@ const Header = () => {
                                 <Link className="nav-link px-3  fw-bold text-dark" to="/contact" >Contact Us</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link px-3 text-dark  rounded-pill btn btn-outline-secondary fw-bolder text-uppercase transitionEffect_headerBookbtn " to="/booking_engine" >Book to Stay</Link>
+                                <Link className="nav-link px-3 rounded-pill btn btn-outline-secondary fw-bolder text-uppercase transitionEffect_headerBookbtn" to="/booking_engine" >Book to Stay</Link>
                             </li>
                         </ul>
                         <span>
