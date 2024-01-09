@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 // import axios from 'axios';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HotelRooms1 from '../assets/images/HotelRooms1.jpg'
 import HotelRooms2 from '../assets/images/HotelRooms2.jpg'
-import HotelRooms8 from '../assets/images/HotelRooms8.jpg'
+import restaurant1 from '../assets/images/restaurant1.jpg'
 import HotelRooms4 from '../assets/images/HotelRooms4.jpg'
 import HotelRooms5 from '../assets/images/HotelRooms5.jpg'
 import HotelRooms7 from '../assets/images/HotelRooms7.jpg'
@@ -51,7 +51,7 @@ const Card = () => {
     },
     {
       id: 6,
-      src: HotelRooms8,
+      src: restaurant1,
       title: "DELUX ROOM",
       price: "89$ / Night"
 

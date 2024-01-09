@@ -20,7 +20,7 @@ const HotelListing = () => {
                     {hotelList.map((item, id) => (
                         <div className='col-lg-12 mt-5' key={id}>
                             <Link to="/hotels" className='text-decoration-none'>
-                                <div class="card mb-3">
+                                <div class="card ">
                                     <div class="row g-0">
                                         <div className="col-md-4">
                                             <img src={item.src} className="img-fluid rounded-start" alt="img" />

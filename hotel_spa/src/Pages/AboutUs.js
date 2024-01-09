@@ -13,7 +13,7 @@ const AboutUs = () => {
         <h1 className='allImgBg_Heading align-item-center'>About</h1>
         <span className='fs-5'><Link to='/home' className='text-white text-decoration-none'>Home</Link >/About</span>
       </div>
-      <div className='container-fluid mt-3'>
+      <div className='container mt-3'>
         <div className='row text-center mt-5'>
           <p className='fs-4'>About Us</p>
           <h2 className='aboutus_HeadingHotel'>de Alara Prestige Inn</h2>
