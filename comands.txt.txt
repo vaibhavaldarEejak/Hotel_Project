@@ -1,0 +1,18 @@
+commands->
+1. git Repo :
+-> https://github.com/vaibhavaldarEejak/Hotel_Project.git
+
+2. clone the git repo to local->
+-> git clone "https://github.com/vaibhavaldarEejak/Hotel_Project.git"
+
+3. open VS code(for hotelwebsite) and install the npm (node package manager)->
+-> npm i/install
+
+4. to run the JSON server->
+-> npm run server
+
+5. after run the JSON server to run the react application->
+-> npm start
+
+6. open this localhost to browser.
+->  http://localhost:3000
